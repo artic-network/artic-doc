@@ -30,7 +30,7 @@ Current viruses.
                     </span>
             </div>
             <div class="media-body">
-                <h4 class="media-heading"><a class="post-link" href="{{ page.url | remove: "/" }}">{{ page.title }}</a></h4>
+                <h4 class="media-heading"><a class="post-link" href="{{ page.url }}">{{ page.title }}</a></h4>
                 <p>{% if page.summary %} {{ page.summary | strip_html | strip_newlines | truncate: 160 }} {% else %} {{ page.content | truncatewords: 50 | strip_html }} {% endif %}</p>
             </div>
         </div>
