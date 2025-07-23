@@ -4,7 +4,7 @@ keywords: tutorial
 layout: document
 last_updated: Jul 11, 2021
 tags: [protocol] 
-permalink: estimating-time-scales.html
+permalink: /documentation/guides/estimating-time-scales
 folder: tutorials
 title_text: "How to read a tree part 2: Estimating time scales using molecular clocks"
 subtitle_text: "Tutorial | Phylogenetics"

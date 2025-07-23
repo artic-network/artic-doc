@@ -4,8 +4,8 @@ keywords: tutorial
 layout: document
 last_updated: Feb 12, 2020
 tags: [protocol] 
-permalink: quick-guide-to-tiling-amplicon-sequencing-bioinformatics.html
-folder: tutorials
+permalink: /documentation/guides/quick-guide-to-tiling-amplicon-sequencing-bioinformatics
+folder: guides
 title_text: "A quick guide to tiling amplicon sequencing and downstream bioinformatics analysis"
 version: v1.0.0
 creation_date: 2020-02-12

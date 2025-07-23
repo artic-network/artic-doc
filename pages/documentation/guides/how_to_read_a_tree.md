@@ -4,8 +4,8 @@ keywords: tutorial
 layout: document
 last_updated: Feb 06, 2020
 tags: [protocol] 
-permalink: how-to-read-a-tree.html
-folder: tutorials
+permalink: /documentation/guides/how-to-read-a-tree
+folder: guides
 title_text: "How to read a phylogenetic tree"
 subtitle_text: "Tutorial | Phylogenetics"
 document_name: "ARTIC-Tutorial-Phylogenetics-Part1"
