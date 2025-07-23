@@ -12,8 +12,7 @@ folder: documentation
 {% assign docs = site.html_pages | where_exp:"item", "item.category contains 'guide'" | sort: 'title' %}
 <ul>
     {% for doc in docs %}
-    <li>{{ doc.title_text }}</li>
-    <blockquote>link: <a href="{{ doc.permalink }}">{{ doc.permalink }}</a></blockquote>
+    <li><a href="{{ doc.permalink }}">{{ doc.title_text }}</a></li>
     {% endfor %}
 </ul>
 
