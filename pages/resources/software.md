@@ -7,14 +7,6 @@ permalink: software
 folder: resources
 ---
 
-## Virus sequencing
-
-About virus sequencing.
-
-## More sample content
-
-Current viruses.
-
 <div class="row">
     <div class="col-lg-12">
         <h2 class="page-header">Software</h2>
@@ -25,8 +17,10 @@ Current viruses.
         <div class="media">
             <div class="pull-left">
                     <span class="fa-stack fa-2x">
-                          <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                          <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
+                        <span class="fa-stack fa-2x">
+                        <a class="post-link" href="{{ page.link }}">
+                        <img  src="{{ page.icon }}" alt="{{ page.name }}" class="img-responsive" style="object-fit: contain; width: 64px; height: 64px; ; border-radius: 25%"/></a>
+                    </span>
                     </span>
             </div>
             <div class="media-body">

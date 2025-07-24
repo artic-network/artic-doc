@@ -8,13 +8,9 @@ permalink: viruses
 folder: resources
 ---
 
-## Virus sequencing
+## Current virus resources
 
-About virus sequencing.
 
-## More sample content
-
-Current viruses.
 
 <div class="row">
     <div class="col-lg-12">
@@ -26,8 +22,10 @@ Current viruses.
         <div class="media">
             <div class="pull-left">
                     <span class="fa-stack fa-2x">
-                        <a class="post-link" href="{{ page.url }}">
-                        <img src="{{ page.image }}" alt="{{ page.title }}" class="img-responsive" style="object-fit: cover; width: 64px; height: 64px; border-radius: 25%"/></a>
+                        <span class="fa-stack fa-2x">
+                        <a class="post-link" href="{{ page.link }}">
+                        <img  src="{{ page.icon }}" alt="{{ page.name }}" class="img-responsive" style="object-fit: contain; width: 64px; height: 64px; ; border-radius: 25%"/></a>
+                    </span>
                     </span>
             </div>
             <div class="media-body note-text">

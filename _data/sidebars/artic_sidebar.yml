@@ -37,20 +37,20 @@ entries:
       url: /software
       output: web, pdf
 
-  - title: Documentation
+  - title: Training
     output: web, pdf
     folderitems:
 
     - title: Overview
-      url: /documentation
+      url: /training
       output: web, pdf
 
     - title: Tutorials
-      url: /documentation/tutorials
+      url: /training/tutorials
       output: web, pdf
 
     - title: Guides
-      url: /documentation/guides
+      url: /training/guides
       output: web, pdf
 
     - title: FAQ
