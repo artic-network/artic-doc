@@ -8,7 +8,7 @@ tags:
 summary: null
 permalink: /viruses/mev/mev-ont-epi2me-sop.html
 folder: mev
-title_text: Running the ARTIC MEV analysis pipelines using EPI2ME
+title_text: Running the ARTIC amplicon-nf analysis pipeline using EPI2ME
 subtitle_text: ARTIC pipelines | bioinformatics
 document_name: ARTIC-MEV-EPI2ME-Setup
 version: v1.0
@@ -51,16 +51,16 @@ The first time you run EPI2ME it may need to install some additional software. I
 
 Open EPI2ME. From the left-hand side panel, select "Launch". 
 
-![](https://github.com/artic-network/artic-doc/blob/hackathon/images/prepare-nf/Screenshot_preparenf_launch.png )
+![](/images/prepare-nf/Screenshot_preparenf_launch.png)
   
 Then select “Import workflow" and "Import from Github".
 
-![](https://github.com/artic-network/artic-doc/blob/hackathon/images/prepare-nf/Screenshot_preparenf_import.png )
+![](/images/prepare-nf/Screenshot_preparenf_import.png)
 
 A pop-up window will appear where you can enter the GitHub URL. Enter the URL and click “Download” [https://github.com/artic-network/amplicon-nf](https://github.com/artic-network/amplicon-nf):
 
 
-![](https://github.com/artic-network/artic-doc/blob/hackathon/images/prepare-nf/Screenshot_import_amplicon-nf.png)
+![](/images/prepare-nf/Screenshot_import_amplicon-nf.png)
 
  
 Once it has downloaded, it will be ready in the Launch > Workflows tab. Select the prepare-nf workflow and you will be taken to a landing page for this workflow.
@@ -69,18 +69,18 @@ Once it has downloaded, it will be ready in the Launch > Workflows tab. Select t
 
 From the workflow landing page, click “Launch”.
 
-![](https://github.com/artic-network/artic-doc/blob/hackathon/images/prepare-nf/Screenshot_ampliconnf_launch.png)
+![](/images/prepare-nf/Screenshot_ampliconnf_launch.png)
 
 
 In the ‘Input’ section, select the path to sample_config.csv file that has been generated using prepare-nf. 
 
 You can optionally select an output directory where the results will be saved. If you do not select this, results will be saved in a default directory that can be easily found once the run is complete in the ‘Files’ tab.
 
-![](https://github.com/artic-network/artic-doc/blob/hackathon/images/prepare-nf/Screenshot_ampliconnf_path.png)
+![](/images/prepare-nf/Screenshot_ampliconnf_path.png)
 
 Finally click “Launch workflow”. It will then start running. The runtime will depend on the size of your files and the speed of your computer, but 10-30 minutes is common. While it is running you will see a series of progress bars, and at the top a blue ‘Running’ icon. This will change to green and ‘Complete’ when it has finished.
 
-![](https://github.com/artic-network/artic-doc/blob/hackathon/images/prepare-nf/Screenshot_ampliconnf_done.png)
+![](/images/prepare-nf/Screenshot_ampliconnf_done.png)
 
 The output directory will contain a directory for each of your samples, along with two report files.
 
