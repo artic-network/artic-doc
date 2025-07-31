@@ -14,7 +14,7 @@ tags: [resources]
     </div>
     {% for page in site.html_pages %}
     {% if page.folder == "viruses" %}
-    {% include subsection.html icon=page.icon title=page.title url=page.link summary=page.summary %}
+        {% include subsection.html icon=page.icon title=page.tname url=page.url summary=page.summary %}
     {% endif %}
     {% endfor %}
 </div>
@@ -25,7 +25,7 @@ tags: [resources]
     </div>
     {% for page in site.html_pages %}
     {% if page.folder == "protocols" %}
-    {% include subsection.html icon=page.icon title=page.title url=page.link summary=page.summary %}
+    {% include subsection.html icon=page.icon title=page.title url=page.url summary=page.summary %}
     {% endif %}
     {% endfor %}
 </div>
@@ -36,7 +36,7 @@ tags: [resources]
     </div>
     {% for page in site.html_pages %}
     {% if page.folder == "software" %}
-    {% include subsection.html icon=page.icon title=page.title url=page.link summary=page.summary %}
+    {% include subsection.html icon=page.icon title=page.title url=page.url summary=page.summary %}
     {% endif %}
     {% endfor %}
 </div>

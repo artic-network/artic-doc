@@ -14,7 +14,7 @@ folder: resources
     </div>
     {% for page in site.html_pages %}
     {% if page.folder == "viruses" %}
-    {% include subsection.html icon=page.icon title=page.name url=page.url summary=page.summary %}
+    {% include subsection.html icon=page.icon title=page.tname url=page.url summary=page.summary %}
     {% endif %}
     {% endfor %}
 </div>
