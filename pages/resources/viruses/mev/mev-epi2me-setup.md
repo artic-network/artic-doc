@@ -51,7 +51,7 @@ The first time you run EPI2ME it may need to install some additional software. I
 
 Open EPI2ME. From the left-hand side panel, select "Launch". 
 
-<img width="500" src="/images/prepare-nf/Screenshot_preparenf_launch.png">
+<img width="100" src="/images/prepare-nf/Screenshot_preparenf_launch.png">
 
 Then select “Import workflow" and "Import from Github".
 
