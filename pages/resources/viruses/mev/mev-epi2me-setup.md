@@ -51,18 +51,16 @@ The first time you run EPI2ME it may need to install some additional software. I
 
 Open EPI2ME. From the left-hand side panel, select "Launch". 
 
-![](/images/prepare-nf/Screenshot_preparenf_launch.png )
-  
+<img width="500" src="/images/prepare-nf/Screenshot_preparenf_launch.png">
+
 Then select “Import workflow" and "Import from Github".
 
-![](/images/prepare-nf/Screenshot_preparenf_import.png )
-
+<img width="500" src="/images/prepare-nf/Screenshot_preparenf_import.png">
 
 A pop-up window will appear where you can enter the GitHub URL. Enter the URL and click “Download” [https://github.com/artic-network/amplicon-nf](https://github.com/artic-network/amplicon-nf):
 
 
-![](/images/prepare-nf/Screenshot_import_amplicon-nf.png)
-
+<img width="500" src="/images/prepare-nf/Screenshot_import_amplicon-nf.png">
  
 Once it has downloaded, it will be ready in the Launch > Workflows tab. Select the prepare-nf workflow and you will be taken to a landing page for this workflow.
 
@@ -70,18 +68,17 @@ Once it has downloaded, it will be ready in the Launch > Workflows tab. Select t
 
 From the workflow landing page, click “Launch”.
 
-![](/images/prepare-nf/Screenshot_ampliconnf_launch.png)
-
+<img width="500" src="/images/prepare-nf/Screenshot_ampliconnf_launch.png">
 
 In the ‘Input’ section, select the path to sample_config.csv file that has been generated using prepare-nf. 
 
 You can optionally select an output directory where the results will be saved. If you do not select this, results will be saved in a default directory that can be easily found once the run is complete in the ‘Files’ tab.
 
-![](/images/prepare-nf/Screenshot_ampliconnf_path.png)
+<img width="500" src="/images/prepare-nf/Screenshot_ampliconnf_path.png">
 
 Finally click “Launch workflow”. It will then start running. The runtime will depend on the size of your files and the speed of your computer, but 10-30 minutes is common. While it is running you will see a series of progress bars, and at the top a blue ‘Running’ icon. This will change to green and ‘Complete’ when it has finished.
 
-![](/images/prepare-nf/Screenshot_ampliconnf_done.png)
+<img width="500" src="/images/prepare-nf/Screenshot_ampliconnf_done.png">
 
 The output directory will contain a directory for each of your samples, along with two report files.
 
