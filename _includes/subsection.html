@@ -1,0 +1,16 @@
+<div class="col-md-6">
+    <div class="media">
+        <div class="pull-left">
+                <span class="fa-stack fa-2x">
+                    <a class="post-link" href="{{ include.url }}">
+                        <img  src="{{ include.icon }}" alt="icon" class="img-responsive" style="object-fit: contain; width: 64px; height: 64px; ; border-radius: 25%"/>
+                    </a>
+                </span>
+        </div>
+        <div class="media-body note-text subsection-body">
+            <h4 class="subsection-heading"><a class="post-link" href="{{ include.url }}">{{ include.title }}</a></h4>
+            <p>{{ include.summary | strip_html | strip_newlines | truncate: 160 }}</p>
+        </div>
+    </div>
+</div>
+

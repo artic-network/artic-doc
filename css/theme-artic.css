@@ -252,3 +252,13 @@ a[data-toggle] {
 span.author {
     font-weight: 500;
 }
+
+subsection-body {
+    font-weight: 400;
+    font-size: 12pt;
+}
+
+subsection-title {
+    font-weight: 100;
+    font-size: 14pt;
+}
