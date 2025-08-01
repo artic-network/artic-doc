@@ -1,7 +1,7 @@
 ---
 title:  "Opportunity to Join Pathoplexus, Loculus, & ARTIC 2"
 published: true
-permalink: 2025-07-29-artic-2-open-position.html
+permalink: 2025-07-29_artic-2-open-position.html
 tags: [news]
 author: Emma Hodcroft
 ---

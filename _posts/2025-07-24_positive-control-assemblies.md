@@ -1,7 +1,7 @@
 ---
 title:  "Genome assemblies for a respiratory metagenomics positive control"
 published: true
-permalink: 2025-07-26-positive-control-genome-assemblies.html
+permalink: 2025-07-26_positive-control-genome-assemblies.html
 tags: [news]
 author: Bede Constantinides
 ---
