@@ -3,7 +3,7 @@ title:  "Genome assemblies for a respiratory metagenomics positive control"
 published: true
 permalink: 2025-07-26_positive-control-genome-assemblies.html
 tags: [news]
-author: Bede Constantinides
+author: Bede Constantinides and Mia Weaver
 ---
 
 Clinical metagenomics uses complex laboratory protocols to detect DNA and RNA from viral and bacterial pathogens. For best results, different sample types—from viscous sputum to blood with high host background—demand specific handling. For reliable routine diagnostics, these methods must detect pathogens both sensitively and precisely, demanding robust control specimens and validation procedures.
