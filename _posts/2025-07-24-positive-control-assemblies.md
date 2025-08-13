@@ -1,8 +1,9 @@
 ---
-title:  "Genome assemblies for a respiratory metagenomics positive control"
+title: Genome assemblies for a respiratory metagenomics positive control
 published: true
 permalink: 2025-07-26_positive-control-genome-assemblies.html
-tags: [news]
+tags:
+  - news
 author: Bede Constantinides and Mia Weaver
 ---
 
@@ -18,7 +19,7 @@ ZeptoMetrix® provides a [datasheet](https://www.zeptometrix.com/us/en/nattrol-r
 
 Typically, viral metagenomic sequencing directly from clinical samples results in poor sensitivity due to large host backgrounds and low viral abundance. To enrich for the viruses described in the Zeptometrix control, an adapted version of the [Oxford Nanopore Technologies (ONT) Rapid Metagenomic Sequencing protocol](https://nanoporetech.com/document/rapid-sequencing-metagenomics-sqk-rpb114-24#overview-of-protocol) following the viral sample preparation arm was used. This method is based on a SMART (Switching Mechanism at the 5′ end of RNA Template) approach and uses random priming for cDNA synthesis followed by PCR amplification using ONT rapid barcodes to amplify and barcode cDNA in a single step. The resulting libraries were sequenced on the ONT PromethION (R10.4.1) to generate sufficient data for assembling the RP2.1 panel genomes.
 
-**Informatic methods**
+**Bioinformatic methods**
 
 ONT PromethION reads were basecalled with model version 4.3.0 HAC. Initial reference sequences were selected using strain information provided in the panel’s [datasheet](https://web-resources-prod.zeptometrix.com/documents/public/PI/PINATRPC2.1-BIO.pdf). Consensus sequences were generated using [Minimap2](https://github.com/lh3/minimap2) `-x map-ont` and [Kindel](http://github.com/bede/kindel) prior to polishing with [Dorado](https://github.com/nanoporetech/dorado).
 
