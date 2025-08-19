@@ -1,8 +1,8 @@
 ---
 title: "Are sewers a gold mine of epidemiological data? Applying the ARTIC approach to wastewater"
-published: false
+published: True
 permalink: 2025-08-14-wastewater_based_epidemiology_AGD.html
-tags: [wastewater, tiled amplicons, sequencing, epidemiology]
+tags: [news]
 author: Alvaro Garcia Delgado
 ---
 
