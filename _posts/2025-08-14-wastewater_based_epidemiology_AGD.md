@@ -31,3 +31,11 @@ To investigate the effectiveness of tiled amplicon sequencing in complex samples
 These samples will serve to investigate the relationship between the concentration of a virus in wastewater, and the performance of tiled amplicon sequencing in several parameters. For example, how does virus concentration relate to genome coverage and completeness? What are the most common unintended by-products of our assays in real wastewater samples? What changes in the amplicon schemes or reactions can reduce these unintended by-products? And so on. By answering these questions we can understand when it is appropriate to use tiled amplicon sequencing, how reliable results will be depending on virus concentration, and produce assays that are more specific and efficient.
 Ultimately, we expect the research underpinned by our wastewater collection program to improve how reliable and informative viral genome sequencing is in the context of WBE. Better WBE, in turn, can inform authorities in their response to outbreaks or in their management common diseases, helping shape policy and healthcare resource allocation, with more early warning and more efficiency than relying solely on clinical testing.
 
+
+### References
+
+Karthikeyan, S., Levy, J. I., De Hoff, P., Humphrey, G., Birmingham, A., Jepsen, K., ... & Knight, R. (2022). Wastewater sequencing reveals early cryptic SARS-CoV-2 variant transmission. _Nature_, _609_(7925), 101-108.
+
+Nemudryi, A., Nemudraia, A., Wiegand, T., Surya, K., Buyukyoruk, M., Cicha, C., ... & Wiedenheft, B. (2020). Temporal detection and phylogenetic assessment of SARS-CoV-2 in municipal wastewater. _Cell Reports Medicine_, _1_(6).
+
+Quick, J., Grubaugh, N. D., Pullan, S. T., Claro, I. M., Smith, A. D., Gangavarapu, K., ... & Loman, N. J. (2017). Multiplex PCR method for MinION and Illumina sequencing of Zika and other virus genomes directly from clinical samples. _Nature protocols_, _12_(6), 1261-1276.
