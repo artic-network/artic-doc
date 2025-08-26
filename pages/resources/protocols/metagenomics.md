@@ -5,7 +5,7 @@ summary: "Resources and protocols for metagenomic sequencing"
 sidebar: artic_sidebar
 permalink: /protocols/metagenomics
 icon: /images/protocols/metagenomics.svg
-folder: protocols
+folder: _protocols
 tags: [resources, protocols]
 ---
 

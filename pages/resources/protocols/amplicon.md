@@ -5,7 +5,7 @@ summary: "Resources and protocols for tiled amplicon sequencing"
 sidebar: artic_sidebar
 permalink: /protocols/amplicon
 icon: /images/protocols/amplicon.svg
-folder: protocols
+folder: _protocols
 tags: [resources, protocols]
 ---
 
