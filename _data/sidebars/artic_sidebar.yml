@@ -1,90 +1,85 @@
 entries:
-- title: sidebar
-  product: ARTIC
-  version: 2.0
-  folders:
-
-  - title: About
-    url: /about
-    output: web, pdf
-
-  - title: People
-    url: /people/artic-network
-    output: web, pdf
-
-  - title: News
-    url: /news
-    output: web, pdf
-
-  - title: Resources
-    output: web, pdf
-    folderitems:
-
-    - title: Overview
-      url: /resources
-      output: web, pdf
-
-    - title: Viruses
-      url: /viruses
-      output: web, pdf
-
-    - title: Protocols
-      url: /protocols
-      output: web, pdf
-
-    - title: Software
-      url: /software
-      output: web, pdf
-
-  - title: Training
-    output: web, pdf
-    folderitems:
-
-    - title: Overview
-      url: /training
-      output: web, pdf
-
-    - title: Tutorials
-      url: /training/tutorials
-      output: web, pdf
-
-    - title: Guides
-      url: /training/guides
-      output: web, pdf
-
-  - title: Projects
-    output: web, pdf
-    folderitems:
-
-      - title: Overview
-        url: /projects
+  - title: sidebar
+    product: ARTIC
+    version: 2
+    folders:
+      - title: About
+        url: /about
         output: web, pdf
 
-      - title: ARTIC-1
-        url: /projects/artic1
+      - title: People
+        url: /people/artic-network
         output: web, pdf
 
-      - title: ARTIC-2
-        url: /projects/artic2
+      - title: News
+        url: /news
         output: web, pdf
 
+      - title: Resources
+        output: web, pdf
+        folderitems:
+          - title: Overview
+            url: /resources
+            output: web, pdf
 
-#  - title: People
-#    output: web, pdf
-#    folderitems:
-#
-#      - title: Overview
-#        url: /people
-#        output: web, pdf
-#
-#      - title: ARTIC Network
-#        url: /people/artic-network
-#        output: web, pdf
-#
-#      - title: Collaborators
-#        url: /people/collaborators
-#        output: web, pdf
+          - title: Viruses
+            url: /viruses
+            output: web, pdf
 
-  - title: FAQ
-    url: /faq
-    output: web, pdf
+          - title: Protocols
+            url: /protocols
+            output: web, pdf
+
+          - title: Software
+            url: /software
+            output: web, pdf
+
+      - title: Training
+        output: web, pdf
+        folderitems:
+          - title: Overview
+            url: /training
+            output: web, pdf
+
+          - title: Tutorials
+            url: /training/tutorials
+            output: web, pdf
+
+          - title: Guides
+            url: /training/guides
+            output: web, pdf
+
+      - title: Projects
+        output: web, pdf
+        folderitems:
+          - title: Overview
+            url: /projects
+            output: web, pdf
+
+          - title: ARTIC-1
+            url: /projects/artic1
+            output: web, pdf
+
+          - title: ARTIC-2
+            url: /projects/artic2
+            output: web, pdf
+
+      #  - title: People
+      #    output: web, pdf
+      #    folderitems:
+      #
+      #      - title: Overview
+      #        url: /people
+      #        output: web, pdf
+      #
+      #      - title: ARTIC Network
+      #        url: /people/artic-network
+      #        output: web, pdf
+      #
+      #      - title: Collaborators
+      #        url: /people/collaborators
+      #        output: web, pdf
+
+      - title: FAQ
+        url: /faq
+        output: web, pdf
