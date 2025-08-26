@@ -17,6 +17,7 @@ citation: "Loman *et al.* In Prep."
 nav_menu: false
 show_tile: false
 category: mev-guide
+order: 2
 ---
 
 This document is part of the MEV sequencing protocol package:

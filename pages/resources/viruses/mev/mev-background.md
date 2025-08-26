@@ -5,7 +5,7 @@ layout: document
 last_updated: Aug 23, 2024
 tags: [protocol] 
 permalink: /viruses/mev/mev-background.html
-folder: mpxv
+folder: mev
 title_text: "MeV virus sequencing"
 subtitle_text: "A primer on measles virus genomic epidemiology and why we do it"
 document_name: "ARTIC-MeV-guide"
@@ -17,6 +17,7 @@ citation: "O'Toole et al"
 nav_menu: false
 show_tile: false
 category: mev-guide
+order: 1
 ---
 
 ## Measles genomic epi: Why do it?

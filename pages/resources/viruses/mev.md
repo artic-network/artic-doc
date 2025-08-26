@@ -8,6 +8,7 @@ sidebar: artic_sidebar
 permalink: /viruses/mev
 icon: /images/viruses/mev_icon.svg
 folder: viruses
+virus: mev
 tags: [resources, viruses]
 ---
 
@@ -15,39 +16,51 @@ tags: [resources, viruses]
 
 ## Resources and documents
 
-{% assign docs = site.html_pages | where_exp:"item", "item.category contains 'mev'" | sort: 'title' %}
+{% assign docs = site.html_pages | where_exp:"item", "item.folder contains 'mev'" | where_exp:"item", "item.category contains 'guide'" | sort: 'order' %}
+{% if docs and docs.size != 0 %}
+### Background
+<ul>
+{% for doc in docs %}
+    <li>{{ doc.title_text }}</li>
+	<blockquote>
+        {{ doc.subtitle_text }} <br />
+        link: <a href="{{ doc.permalink }}">{{ doc.permalink }}</a>
+    </blockquote>
+{% endfor %}
+</ul>
+{% endif %}
+
+{% assign docs = site.html_pages | where_exp:"item", "item.folder contains 'mev'" | where_exp:"item", "item.category contains 'setup'" | sort: 'title' %}
+{% if docs and docs.size != 0 %}
+### Setup guides
 <ul>
 {% for doc in docs %}
     <li>{{ doc.title_text }}</li>
 	<blockquote>link: <a href="{{ doc.permalink }}">{{ doc.permalink }}</a></blockquote>
 {% endfor %}
 </ul>
+{% endif %}
 
-### Setup guides
-{% assign mevDocs = site.html_pages | where_exp:"item", "item.category contains 'mev-it-setup'" | sort: 'title' %}
-<ul>
-{% for doc in mevDocs %}
-    <li>{{ doc.title_text }}</li>
-	<blockquote>link: <a href="{{ doc.permalink }}">{{ doc.permalink }}</a></blockquote>
-{% endfor %}
-</ul>
-
+{% assign docs = site.html_pages | where_exp:"item", "item.folder contains 'mev'" | where_exp:"item", "item.category contains 'epi2me'"| sort: 'title' %}
+{% if docs and docs.size != 0 %}
 ### User-interface pipelines using Epi2me
-{% assign mevDocs = site.html_pages | where_exp:"item", "item.category contains 'mev-epi2me'" | sort: 'title' %}
 <ul>
-{% for doc in mevDocs %}
+{% for doc in docs %}
     <li>{{ doc.title_text }}</li>
 	<blockquote>link: <a href="{{ doc.permalink }}">{{ doc.permalink }}</a></blockquote>
 {% endfor %}
 </ul>
+{% endif %}
 
+{% assign docs = site.html_pages | where_exp:"item", "item.folder contains 'mev'" | where_exp:"item", "item.category contains 'cli'" | sort: 'title' %}
+{% if docs and docs.size != 0 %}
 ### Command line interface pipeline SOPs
-{% assign mevDocs = site.html_pages | where_exp:"item", "item.category contains 'mev-cli'" | sort: 'title' %}
 <ul>
-{% for doc in mevDocs %}
+{% for doc in docs %}
     <li>{{ doc.title_text }}</li>
 	<blockquote>link: <a href="{{ doc.permalink }}">{{ doc.permalink }}</a></blockquote>
 {% endfor %}
 </ul>
+{% endif %}
 
 {% include links.html %}
