@@ -1,23 +1,20 @@
 ---
-title: "Measles virus genomic epidemiology "
+title: "Measles virus genomic epidemiology"
 keywords: protocol
 layout: document
-last_updated: Aug 23, 2024
+last_updated: 2024-08-23
 tags: [protocol] 
 permalink: /viruses/mev/mev-background.html
 folder: mev
-title_text: "MeV virus sequencing"
+category: guide
+order: 1
+title_text: "Measles virus genomic epidemiology"
 subtitle_text: "A primer on measles virus genomic epidemiology and why we do it"
 document_name: "ARTIC-MeV-guide"
 version: v1.0.0
 creation_date: 2024-08-20
-forked_from: 
 author: ARTIC team
-citation: "O'Toole et al"
-nav_menu: false
-show_tile: false
-category: mev-guide
-order: 1
+citation: 
 ---
 
 ## Measles genomic epi: Why do it?

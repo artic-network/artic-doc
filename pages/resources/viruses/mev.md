@@ -4,15 +4,17 @@ tname: MeV<br>(Measles virus)
 keywords: resources
 summary: A collection of resources for whole genome sequencing and analysis of Measles virus (MeV)
 image: /images/viruses/mev.png
-sidebar: artic_sidebar
 permalink: /viruses/mev
 icon: /images/viruses/mev_icon.svg
 folder: viruses
 virus: mev
 tags: [resources, viruses]
 ---
+     
+<img src="{{ page.image }}" style="float:left; max-width: 128px" />
+<div style="vertical-align:top"> {{ page.summary }} </div>
 
-> {{ page.summary }}
+<div style="clear: left"/>
 
 ## Resources and documents
 

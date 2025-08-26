@@ -2,21 +2,19 @@
 title: "Virus sequencing | IT setup guide"
 keywords: protocol
 layout: document
-last_updated: Aug 20 2024
 tags: [protocol] 
 permalink: /viruses/mev/mev-it-setup.html
 folder: mev
-title_text: "MeV bioinformatics environment setup"
+title_text: "Measles virus bioinformatics environment setup"
 subtitle_text: "Nanopore | bioinformatics"
-document_name: "ARTIC-MEV-ITSetup"
+document_name: "ARTIC-MEV-IT-Setup"
 version: v1.0.0
 creation_date: 2024-08-20
-forked_from: 
+last_updated: 2024-08-20
 author: Nick Loman, Andrew Rambaut
 citation: "Loman *et al.* In Prep."
-nav_menu: false
-show_tile: false
-category: # mev-setup
+category: setup
+order: 1
 ---
 
 {% include callout.html

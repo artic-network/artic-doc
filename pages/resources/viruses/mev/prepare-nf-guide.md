@@ -2,24 +2,20 @@
 title: Setting up config for running the ARTIC amplicon-nf pipeline
 keywords: protocol
 layout: document
-last_updated: {}
-tags:
-  - protocol
+tags: [protocol]
 summary: null
-permalink: /viruses/mev/prepare-nf-guide.html
+permalink: /viruses/mev/mev-epi2me-setup.html
 folder: mev
 title_text: Running the ARTIC MEV analysis pipelines using EPI2ME
 subtitle_text: ARTIC pipelines | bioinformatics
 document_name: ARTIC-MEV-EPI2ME-Setup
-version: v1.0
-creation_date: {}
-revision_date: null
-forked_from: null
+version: v1.0.0
+creation_date:
+last_updated: 
 author: Elli Mylona
 citation: null
-nav_menu: false
-show_tile: false
-category: mev-setup
+category: setup
+order: 3
 ---
 
 **Overview:** This guide provides step-by-step instructions on how to use prepare-nf in EPI2ME, Oxford Nanopore Technologies’ data analysis platform. It can be used to create a sample sheet to be used as input file in the ARTIC bioinformatics amplicon-nf pipeline on a Desktop or Laptop computer without having to use a command-line interface.

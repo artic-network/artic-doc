@@ -1,25 +1,21 @@
 ---
-title: Setting up and using EPI2ME for running the ARTIC amplicon-nf pipeline
+title: "The ARTIC amplicon-nf analysis pipeline using EPI2ME"   
 keywords: protocol
 layout: document
-last_updated: {}
-tags:
-  - protocol
+tags: [protocol]
 summary: null
 permalink: /viruses/mev/mev-ont-epi2me-sop.html
 folder: mev
-title_text: Running the ARTIC amplicon-nf analysis pipeline using EPI2ME
+title_text: Setting up and using EPI2ME for running the ARTIC amplicon-nf pipeline
 subtitle_text: ARTIC pipelines | bioinformatics
 document_name: ARTIC-MEV-EPI2ME-Setup
 version: v1.0
-creation_date: {}
-revision_date: null
-forked_from: null
+creation_date: 
+last_updated: 
 author: Elli Mylona
-citation: null
-nav_menu: false
-show_tile: false
-category: mev-setup
+citation:
+category: setup
+order: 2
 ---
 
 **Overview:** 

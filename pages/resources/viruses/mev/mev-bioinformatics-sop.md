@@ -1,23 +1,19 @@
 ---
-title: MEV Nanopore sequencing bioinformatics protocol | amplicon
+title: "MEV Nanopore sequencing bioinformatics protocol | amplicon"
 keywords: protocol
 layout: document
-last_updated: Aug 20 2024
-tags:
-  - protocol
+last_updated: 2024-08-20
+tags: [protocol]
 permalink: /viruses/mev/mev-bioinformatics-sop.html
 folder: mev
 title_text: MEV Nanopore sequencing bioinformatics protocol
 subtitle_text: Nanopore | bioinformatics
 document_name: ARTIC-MEV-bioinformaticsSOP
 version: v1.0.0
-creation_date: {}
-forked_from: null
+creation_date: 2024-08-20
 author: Rachel Colquhoun
 citation: Loman *et al.* In Prep.
-nav_menu: false
-show_tile: false
-category: mev-cli
+category: cli
 ---
 
 {% include callout.html
