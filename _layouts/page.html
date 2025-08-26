@@ -3,7 +3,15 @@ layout: default
 ---
 
 <div class="post-header">
-   <h1 class="post-title-main">{{ page.title }}</h1>
+    {% if page.image %}
+    <div style="float: left">
+    <img src="{{ page.image }}" style="padding: 10px 10px 10px 10px; object-fit: cover; width: 128px; height: 128px; border-radius: 25%" />
+    </div>
+    <h1 class="post-title-main" style="padding: 10px 10px 10px 10px;">{{ page.title }}</h1>
+    <div style="clear: left"/>
+    {% else %}
+    <h1 class="post-title-main">{{ page.title }}</h1>
+    {% endif %}
 </div>
 
 {% if page.simple_map == true %}
@@ -30,9 +38,9 @@ layout: default
 
 <div class="post-content">
 
-   {% if page.summary %}
+    {% if page.summary %}
     <div class="summary">{{page.summary}}</div>
-   {% endif %}
+    {% endif %}
 
     {% unless page.toc == false %}
     {% include toc.html %}

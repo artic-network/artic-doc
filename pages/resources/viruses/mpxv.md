@@ -11,11 +11,6 @@ virus: mpxv
 tags: [resources, viruses]
 ---
 
-<img src="{{ page.image }}" style="float:left; max-width: 128px" />
-<div style="vertical-align:top"> {{ page.summary }} </div>
-
-<div style="clear: left"/>
-
 ## Resources and documents
 
 {% assign docs = site.html_pages | where_exp:"item", "item.folder contains page.virus" | where_exp:"item", "item.category contains 'guide'" | sort: 'order' %}
