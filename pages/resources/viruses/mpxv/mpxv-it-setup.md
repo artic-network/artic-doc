@@ -1,22 +1,20 @@
 ---
 title: "Mpox virus sequencing | IT setup guide"
-keywords: protocol
 layout: document
-last_updated: Aug 20 2024
+keywords: protocol
 tags: [protocol] 
 permalink: /viruses/mpxv/mpxv-it-setup.html
-folder: mpxv
 title_text: "MPXV bioinformatics environment setup"
 subtitle_text: "Nanopore | bioinformatics"
-document_name: "ARTIC-MPXV-ITSetup"
+document_name: "ARTIC-MPXV-IT-Setup"
 version: v1.0.0
 creation_date: 2024-08-20
-forked_from: 
+last_updated: 2024-08-20
 author: Nick Loman, Andrew Rambaut
 citation: "Loman *et al.* In Prep."
-nav_menu: false
-show_tile: false
-category: # mpxv-setup
+folder: mpxv
+category: setup
+order: 1
 ---
 
 {% include callout.html

@@ -1,24 +1,21 @@
 ---
-title: "Setting up and using EPI2ME for ARTIC pipelines | EPI2ME"
-keywords: protocol
+title: "Running the ARTIC MPXV analysis pipelines using EPI2ME | EPI2ME"
 layout: document
-last_updated: 2024-08-22
+keywords: protocol
 tags: [protocol]
 summary:
 permalink: /viruses/mpxv/mpxv-ont-epi2me-sop.html
-folder: mpxv
 title_text: "Running the ARTIC MPXV analysis pipelines using EPI2ME"
 subtitle_text: "ARTIC pipelines | bioinformatics"
 document_name: "ARTIC-MPXV-EPI2ME-Setup"
 version: v1.0
 creation_date: 2024-08-22
-revision_date: 
-forked_from: 
+last_updated: 2024-08-22
 author: Lauren Lansdowne
 citation: 
-nav_menu: false
-show_tile: false
-category: mpxv-setup
+folder: mpxv
+category: setup
+order: 2
 ---
 
 {% include callout.html

@@ -1,22 +1,20 @@
 ---
 title: "MPXV Nanopore sequencing bioinformatics protocol | amplicon"
-keywords: protocol
 layout: document
-last_updated: Aug 20 2024
+keywords: protocol
 tags: [protocol]
 permalink: /viruses/mpxv/mpxv-bioinformatics-sop.html
-folder: mpxv
 title_text: "MPXV Nanopore sequencing bioinformatics protocol"
 subtitle_text: "Nanopore | bioinformatics"
 document_name: "ARTIC-MPXV-bioinformaticsSOP"
 version: v1.0.0
 creation_date: 2024-08-20
-forked_from: 
+last_updated: 2024-08-20
 author: Sam Wilkinson
 citation: "Loman *et al.* In Prep."
-nav_menu: false
-show_tile: false
-category: mpxv-cli
+folder: mpxv
+category: cli
+order: 2
 ---
 
 {% include callout.html

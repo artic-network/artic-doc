@@ -1,8 +1,7 @@
 ---
 title: "Mpox virus sequencing | A guide to sequencing for genomic epidemiology"
-keywords: protocol
 layout: document
-last_updated: Aug 23, 2024
+keywords: protocol
 tags: [protocol] 
 permalink: /viruses/mpxv/artic-mpxv-guide.html
 folder: mpxv
@@ -11,12 +10,13 @@ subtitle_text: "A guide to sequencing for genomic epidemiology"
 document_name: "ARTIC-MPXV-guide"
 version: v1.0.0
 creation_date: 2024-08-20
-forked_from: 
+last_updated: 2024-08-23
 author: ARTIC team
 citation: "Loman *et al.* In Prep."
 nav_menu: false
 show_tile: false
-category: mpxv-guide
+category: guide
+order: 1
 ---
 
 This document is part of the MPXV sequencing protocol package:

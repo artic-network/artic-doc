@@ -1,54 +1,68 @@
 ---
-tname: MPXV<br>(mpox virus)
 title: MPXV (mpox virus)
+tname: MPXV<br>(mpox virus)
 keywords: resources
-summary: A collection of resources for whole genome sequencing and analysis of MPXV
+summary: "A collection of resources and documents for the genome sequencing of Mpox virus (MPXV) using a tiled amplicon approach."
 image: /images/viruses/mpxv.png
-sidebar: artic_sidebar
 permalink: /viruses/mpxv
 icon: /images/viruses/mpxv_icon.svg
-
 folder: viruses
+virus: mpxv
 tags: [resources, viruses]
 ---
 
-> A collection of resources and documents for the genome sequencing of Mpox virus (MPXV) using a tiled amplicon approach.
+<img src="{{ page.image }}" style="float:left; max-width: 128px" />
+<div style="vertical-align:top"> {{ page.summary }} </div>
+
+<div style="clear: left"/>
 
 ## Resources and documents
 
-{% assign mpxvDocs = site.html_pages | where_exp:"item", "item.category contains 'mpxv-guide'" | sort: 'title' %}
+{% assign docs = site.html_pages | where_exp:"item", "item.folder contains page.virus" | where_exp:"item", "item.category contains 'guide'" | sort: 'order' %}
+{% if docs and docs.size != 0 %}
+### Background
 <ul>
-{% for doc in mpxvDocs %}
+{% for doc in docs %}
     <li>{{ doc.title_text }}</li>
-	<blockquote>link: <a href="{{ doc.permalink }}">{{ doc.permalink }}</a></blockquote>
+	<blockquote>
+        {{ doc.subtitle_text }} <br />
+        link: <a href="{{ doc.permalink }}">{{ doc.permalink }}</a>
+    </blockquote>
 {% endfor %}
 </ul>
+{% endif %}
 
+{% assign docs = site.html_pages | where_exp:"item", "item.folder contains page.virus" | where_exp:"item", "item.category contains 'setup'" | sort: 'title' %}
+{% if docs and docs.size != 0 %}
 ### Setup guides
-{% assign mpxvDocs = site.html_pages | where_exp:"item", "item.category contains 'mpxv-setup'" | sort: 'title' %}
 <ul>
-{% for doc in mpxvDocs %}
+{% for doc in docs %}
     <li>{{ doc.title_text }}</li>
 	<blockquote>link: <a href="{{ doc.permalink }}">{{ doc.permalink }}</a></blockquote>
 {% endfor %}
 </ul>
+{% endif %}
 
+{% assign docs = site.html_pages | where_exp:"item", "item.folder contains page.virus" | where_exp:"item", "item.category contains 'epi2me'"| sort: 'title' %}
+{% if docs and docs.size != 0 %}
 ### User-interface pipelines using Epi2me
-{% assign mpxvDocs = site.html_pages | where_exp:"item", "item.category contains 'mpxv-epi2me'" | sort: 'title' %}
 <ul>
-{% for doc in mpxvDocs %}
+{% for doc in docs %}
     <li>{{ doc.title_text }}</li>
 	<blockquote>link: <a href="{{ doc.permalink }}">{{ doc.permalink }}</a></blockquote>
 {% endfor %}
 </ul>
+{% endif %}
 
+{% assign docs = site.html_pages | where_exp:"item", "item.folder contains page.virus" | where_exp:"item", "item.category contains 'cli'" | sort: 'title' %}
+{% if docs and docs.size != 0 %}
 ### Command line interface pipeline SOPs
-{% assign mpxvDocs = site.html_pages | where_exp:"item", "item.category contains 'mpxv-cli'" | sort: 'title' %}
 <ul>
-{% for doc in mpxvDocs %}
+{% for doc in docs %}
     <li>{{ doc.title_text }}</li>
 	<blockquote>link: <a href="{{ doc.permalink }}">{{ doc.permalink }}</a></blockquote>
 {% endfor %}
 </ul>
+{% endif %}
 
 {% include links.html %}
