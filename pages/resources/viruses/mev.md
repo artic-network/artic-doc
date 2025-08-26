@@ -12,11 +12,11 @@ virus: mev
 tags: [resources, viruses]
 ---
 
-> A collection of resources for whole genome sequencing and analysis of Measles virus (MeV)
+> {{ page.summary }}
 
 ## Resources and documents
 
-{% assign docs = site.html_pages | where_exp:"item", "item.folder contains 'mev'" | where_exp:"item", "item.category contains 'guide'" | sort: 'order' %}
+{% assign docs = site.html_pages | where_exp:"item", "item.folder contains page.virus" | where_exp:"item", "item.category contains 'guide'" | sort: 'order' %}
 {% if docs and docs.size != 0 %}
 ### Background
 <ul>
@@ -30,7 +30,7 @@ tags: [resources, viruses]
 </ul>
 {% endif %}
 
-{% assign docs = site.html_pages | where_exp:"item", "item.folder contains 'mev'" | where_exp:"item", "item.category contains 'setup'" | sort: 'title' %}
+{% assign docs = site.html_pages | where_exp:"item", "item.folder contains page.virus" | where_exp:"item", "item.category contains 'setup'" | sort: 'title' %}
 {% if docs and docs.size != 0 %}
 ### Setup guides
 <ul>
@@ -41,7 +41,7 @@ tags: [resources, viruses]
 </ul>
 {% endif %}
 
-{% assign docs = site.html_pages | where_exp:"item", "item.folder contains 'mev'" | where_exp:"item", "item.category contains 'epi2me'"| sort: 'title' %}
+{% assign docs = site.html_pages | where_exp:"item", "item.folder contains page.virus" | where_exp:"item", "item.category contains 'epi2me'"| sort: 'title' %}
 {% if docs and docs.size != 0 %}
 ### User-interface pipelines using Epi2me
 <ul>
@@ -52,7 +52,7 @@ tags: [resources, viruses]
 </ul>
 {% endif %}
 
-{% assign docs = site.html_pages | where_exp:"item", "item.folder contains 'mev'" | where_exp:"item", "item.category contains 'cli'" | sort: 'title' %}
+{% assign docs = site.html_pages | where_exp:"item", "item.folder contains page.virus" | where_exp:"item", "item.category contains 'cli'" | sort: 'title' %}
 {% if docs and docs.size != 0 %}
 ### Command line interface pipeline SOPs
 <ul>
