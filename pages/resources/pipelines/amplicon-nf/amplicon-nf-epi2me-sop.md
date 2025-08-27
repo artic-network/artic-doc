@@ -68,9 +68,9 @@ If you wish to utilise fuzzy directory matching then a valid samplesheet could l
 
 ```
 sample,platform,scheme_name,barcode
-barcode01,nanopore,artic-measles/400/v1.0.0,barcode01
-barcode02,nanopore,artic-measles/400/v1.0.0,barcode02
-barcode03,nanopore,artic-measles/400/v1.0.0,barcode03
+sample1,nanopore,artic-measles/400/v1.0.0,barcode01
+sample2,nanopore,artic-measles/400/v1.0.0,barcode02
+sample3,nanopore,artic-measles/400/v1.0.0,barcode03
 ```
 
 >Please make sure that you provide a barcode which matches the directory exactly, for example, `01` would be invalid since the actual directory is `barcode01`, if the `barcode` column does not match the directory **EXACTLY** then the pipeline will not be able to match the FASTQ files with the metadata.
