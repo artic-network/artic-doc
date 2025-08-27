@@ -26,7 +26,7 @@ To undertake this tutorial, you will need to download a number of software packa
 
 {% include figtree_callout.md %}
 
-{% include icon-callout.html file='tempest-icon.png' content='Run TempEst by double clicking on its icon. TempEst is an interactive graphical application for examining the temporal signal in a tree of time-stamped sequences by plotting the divergence of each tip from the root against the date of sampling (a root-to-tip plot).<br><br> You can download TempEst from here: <a href="https://github.com/beast-dev/Tempest/releases/latest">https://github.com/beast-dev/Tempest/releases/latest</a>
+{% include icon-callout.html file='software/tempest-icon.png' content='Run TempEst by double clicking on its icon. TempEst is an interactive graphical application for examining the temporal signal in a tree of time-stamped sequences by plotting the divergence of each tip from the root against the date of sampling (a root-to-tip plot).<br><br> You can download TempEst from here: <a href="https://github.com/beast-dev/Tempest/releases/latest">https://github.com/beast-dev/Tempest/releases/latest</a>
 ' %}
 
 
