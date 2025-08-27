@@ -1,11 +1,14 @@
 ---
 title: RAMPART
-keywords: resources
-summary: "Rampart software"
+title_text: "RAMPART"
+subtitle_text: "Read Assignment, Mapping, and Phylogenetic Analysis in Real Time."
+summary: "RAMPART runs concurrently with MinKNOW and shows you demuxing / mapping results in real time."
 sidebar: artic_sidebar
 permalink: /software/rampart
 icon: /images/software/rampart-icon.png
 folder: software
+keywords: resources
+keywords: resources
 tags: [resources, software]
 ---
 

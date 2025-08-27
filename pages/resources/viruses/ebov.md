@@ -1,14 +1,14 @@
 ---
-tname: EBOV<br>(Ebola virus)
 title: EBOV (Ebola virus)
-keywords: resources
+title_text: EBOV<br>(Ebola virus)
+subtitle_text: A collection of resources for whole genome sequencing and analysis of Ebola virus (EBOV)
 summary: A collection of resources for whole genome sequencing and analysis of Ebola virus (EBOV)
 image: /images/viruses/ebov_cdc.png
 sidebar: artic_sidebar
 permalink: /viruses/ebov
 icon: /images/viruses/ebov_icon.svg
-
 folder: viruses
+keywords: resources
 tags: [resources, viruses]
 ---
 

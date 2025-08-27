@@ -15,7 +15,7 @@ tags: [resources]
         <h2 class="page-header">Viruses</h2>
     </div>
     {% for page in docs %}
-        {% include subsection.html icon=page.icon title=page.tname url=page.url summary=page.summary %}
+        {% include subsection.html icon=page.icon title=page.title_text url=page.url summary=page.subtitle_text %}
     {% endfor %}
 </div>
 {% endif %}
@@ -27,7 +27,7 @@ tags: [resources]
         <h2 class="page-header">Protocols</h2>
     </div>
     {% for page in docs %}
-    {% include subsection.html icon=page.icon title=page.title url=page.url summary=page.summary %}
+    {% include subsection.html icon=page.icon title=page.title_text url=page.url summary=page.subtitle_text %}
     {% endfor %}
 </div>
 {% endif %}
@@ -39,7 +39,7 @@ tags: [resources]
         <h2 class="page-header">Software</h2>
     </div>
     {% for page in docs %}
-    {% include subsection.html icon=page.icon title=page.title url=page.url summary=page.summary %}
+    {% include subsection.html icon=page.icon title=page.title_text url=page.url summary=page.subtitle_text %}
     {% endfor %}
 </div>
 {% endif %}

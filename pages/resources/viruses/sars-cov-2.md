@@ -1,13 +1,14 @@
 ---
-tname: SARS-CoV-2<br>(COVID-19)
 title: SARS-CoV-2 (COVID-19)
-keywords: resources
+title_text: SARS-CoV-2<br>(COVID-19)
+subtitle_text: A collection of resources for whole genome sequencing and analysis of SARS-CoV-2
 summary: A collection of resources for whole genome sequencing and analysis of SARS-CoV-2
 sidebar: artic_sidebar
 image: /images/viruses/cov.png
 permalink: /viruses/sars-cov-2
 icon: /images/viruses/sars-cov-2_icon.svg
 folder: viruses
+keywords: resources
 tags: [resources, viruses]
 ---
 

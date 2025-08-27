@@ -1,14 +1,15 @@
 ---
 title: MeV (Measles virus)
 layout: page
-tname: MeV<br>(Measles virus)
-keywords: resources
+title_text: MeV<br>(Measles virus)
+subtitle_text: A collection of resources for whole genome sequencing and analysis of Measles virus (MeV)
 summary: A collection of resources for whole genome sequencing and analysis of Measles virus (MeV)
 image: /images/viruses/mev.png
 permalink: /viruses/mev
 icon: /images/viruses/mev_icon.svg
 folder: viruses
 virus: mev
+keywords: resources
 tags: [resources, viruses]
 ---
      

@@ -1,13 +1,14 @@
 ---
 title: MPXV (mpox virus)
-tname: MPXV<br>(mpox virus)
-keywords: resources
+title_text: MPXV<br>(mpox virus)
+subtitle_text: A collection of resources and documents for the genome sequencing of Mpox virus (MPXV)
 summary: "A collection of resources and documents for the genome sequencing of Mpox virus (MPXV) using a tiled amplicon approach."
 image: /images/viruses/mpxv.png
 permalink: /viruses/mpxv
 icon: /images/viruses/mpxv_icon.svg
 folder: viruses
 virus: mpxv
+keywords: resources
 tags: [resources, viruses]
 ---
 

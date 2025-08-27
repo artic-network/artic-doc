@@ -1,12 +1,14 @@
 ---
 title: PrimalScheme
-keywords: resources
+title_text: "PrimalScheme"
+subtitle_text: "Software to generate primers schemes from a virus Multiple Sequence Alignment."
 summary: "PrimalScheme software"
 sidebar: artic_sidebar
 permalink: /software/PrimalScheme
 folder: software
 tags: [resources, software]
 icon: /images/software/primal-scheme.png
+keywords: resources
 ---
 
 # Introduction 

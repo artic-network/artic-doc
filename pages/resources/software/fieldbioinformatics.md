@@ -1,18 +1,15 @@
 ---
 title: Field bioinformatics
-keywords: resources
-summary: "Fieldbioinformatics software"
+title_text: "Fieldbioinformatics"
+subtitle_text: "A pipeline for working with viral nanopore sequencing data, generated from tiling amplicon schemes"
+summary: "ARTIC Fieldbioinformatics is a pipeline and set of accompanying tools for working with viral nanopore sequencing data, generated from tiling amplicon schemes."
 sidebar: artic_sidebar
 permalink: /software/fieldbioinformatics
 icon: /images/software/field-bioinformatics-icon.png
 folder: software
+keywords: resources
 tags: [resources, software]
 ---
-
-## Overview
-artic is a pipeline and set of accompanying tools for working with viral nanopore sequencing data, generated from tiling amplicon schemes.
-
-It is designed to help run the artic bioinformatics protocols; for example the MPXV protocol.
 
 ## Features include:
 
