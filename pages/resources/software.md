@@ -4,7 +4,7 @@ keywords: resources software
 summary: "Software"
 sidebar: artic_sidebar
 toc: false
-permalink: software
+permalink: /software
 folder: resources
 ---
 

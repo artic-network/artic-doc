@@ -1,7 +1,7 @@
 ---
 title: amplicon-nf
 keywords: resources
-summary: "a bioinformatics pipeline that takes sequencing reads generated from ARTIC-style viral amplicon sequencing schemes, assembles them into consensus sequences, and runs some basic quality control on the outputs."
+summary: "A bioinformatics pipeline that takes sequencing reads generated from ARTIC-style viral amplicon sequencing schemes, assembles them into consensus sequences, and runs some basic quality control on the outputs."
 sidebar: artic_sidebar
 permalink: /software/amplicon-nf
 icon: /images/software/field-bioinformatics-icon.png
