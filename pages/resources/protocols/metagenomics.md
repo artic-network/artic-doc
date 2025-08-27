@@ -11,6 +11,12 @@ icon: /images/protocols/metagenomics.svg
 folder: protocols
 ---
 
-## To be added
+## Guides
+
+- [Metagenomics background & analytic approaches](/guides/metagenomics-background.html).
+
+## Protocol
+
+- To be added
 
 {% include links.html %}
