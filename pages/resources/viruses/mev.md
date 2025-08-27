@@ -18,7 +18,6 @@ tags: [resources, viruses]
 
 {% assign docs = site.html_pages | where_exp:"item", "item.folder contains page.virus" | where_exp:"item", "item.category contains 'guide'" | sort: 'order' %}
 {% if docs and docs.size != 0 %}
-
 ### Background
 <ul>
 {% for doc in docs %}
@@ -31,6 +30,7 @@ tags: [resources, viruses]
 </ul>
 {% endif %}
 
+
 {% assign docs = site.html_pages | where_exp:"item", "item.folder contains page.virus" | where_exp:"item", "item.category contains 'setup'" | sort: 'order' %}
 {% if docs and docs.size != 0 %}
 ### Setup guides
@@ -41,6 +41,7 @@ tags: [resources, viruses]
 {% endfor %}
 </ul>
 {% endif %}
+
 
 {% assign docs = site.html_pages | where_exp:"item", "item.folder contains page.virus" | where_exp:"item", "item.category contains 'epi2me'"| sort: 'order' %}
 {% if docs and docs.size != 0 %}

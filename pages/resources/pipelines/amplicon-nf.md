@@ -3,11 +3,12 @@ title: <code>amplicon-nf</code>&#58; A nextflow pipeline for viral amplicon sequ
 keywords: Amplicon | Bioinformatics | Pipeline
 tags:
   - protocol
-permalink: /resources/amplicon-nf
+permalink: /pipelines/amplicon-nf
 folder: pipelines
 title_text: "amplicon-nf"
 subtitle_text: A nextflow pipeline for viral amplicon sequencing data
 icon: /images/protocols/amplicon.svg
+order: 2
 ---
 
 ## Resources and documents

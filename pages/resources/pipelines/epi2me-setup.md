@@ -4,28 +4,25 @@ keywords: protocol
 layout: document
 tags: [protocol]
 summary: null
-permalink: /viruses/mev/mev-ont-epi2me-sop.html
-folder: mev
-title_text: Setting up and using EPI2ME for running the ARTIC amplicon-nf pipeline
-subtitle_text: ARTIC pipelines | bioinformatics
-document_name: ARTIC-MEV-EPI2ME-Setup
+permalink: /pipelines/ont-epi2me-setup.html
+folder: pipelines
+title_text: Setting up EPI2ME
+subtitle_text: Setting up and using EPI2ME for running ARTIC NextFlow pipelines
+icon: /images/icons/software-installation.svg
+document_name: ARTIC-EPI2ME-Setup
 version: v1.0
 creation_date: 
 last_updated: 
 author: Elli Mylona
 citation:
 category: setup
-order: 2
+order: 1
 ---
 
 {% include callout.html
 type='contrast'
 content='**Overview:** This guide provides step-by-step instructions on how to install and set up EPI2ME, Oxford Nanopore Technologies’ data analysis platform. It can then be used to run ARTIC bioinformatics pipelines on a Desktop or Laptop computer without having to use a command-line interface.'
 %}
-
-This document is part of the MEV sequencing protocol package:
-: [http://artic.network/mev](/viruses/mev)
-
 
 **Requirements:**
 
