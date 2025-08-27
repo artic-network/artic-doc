@@ -13,7 +13,7 @@ A description of the various fields that can be put in the Jekyll block at the t
 : This is the icon that will be used in a set of tiles on the resources page
 
 `keywords: resources`
-: 
+: Can't remember what this is used for - probably for search.
 
 `summary: A collection of resources for whole genome sequencing and analysis of Measles virus (MeV)`
 : A summary paragraph that will go at the top of the page.
