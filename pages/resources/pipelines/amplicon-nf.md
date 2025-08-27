@@ -5,6 +5,7 @@ tags:
   - protocol
 permalink: /pipelines/amplicon-nf
 folder: pipelines
+category: pipeline
 title_text: "amplicon-nf"
 subtitle_text: A nextflow pipeline for viral amplicon sequencing data
 icon: /images/protocols/amplicon.svg

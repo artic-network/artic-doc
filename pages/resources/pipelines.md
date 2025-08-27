@@ -8,7 +8,20 @@ permalink: /pipelines
 folder: resources
 ---
 
-{% assign docs = site.html_pages | where_exp:"item", "item.folder == 'pipelines'" | sort: 'title' %}
+{% assign docs = site.html_pages | where_exp:"item", "item.folder == 'pipelines'"
+| where_exp:"item", "item.category == 'setup'" | sort: 'order' %}
+{% if docs and docs.size != 0 %}
+<div class="row">
+    <div class="col-lg-12">
+        <h2 class="page-header">Setting up</h2>
+    </div>
+    {% for page in docs %}
+    {% include subsection.html icon=page.icon title=page.title_text subtitle=page.subtitle_text keywords=page.keywords url=page.url %}
+    {% endfor %}
+</div>
+{% endif %}
+
+{% assign docs = site.html_pages | where_exp:"item", "item.folder == 'pipelines'"| where_exp:"item", "item.category == 'pipeline'"  | sort: 'order' %}
 {% if docs and docs.size != 0 %}
 <div class="row">
     <div class="col-lg-12">
