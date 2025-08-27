@@ -18,8 +18,14 @@ category: setup
 order: 2
 ---
 
-**Overview:** 
-This guide provides step-by-step instructions on how to install and set up EPI2ME, Oxford Nanopore Technologies’ data analysis platform. It can then be used to run ARTIC bioinformatics pipelines on a Desktop or Laptop computer without having to use a command-line interface.
+{% include callout.html
+type='contrast'
+content='**Overview:** This guide provides step-by-step instructions on how to install and set up EPI2ME, Oxford Nanopore Technologies’ data analysis platform. It can then be used to run ARTIC bioinformatics pipelines on a Desktop or Laptop computer without having to use a command-line interface.'
+%}
+
+This document is part of the MEV sequencing protocol package:
+: [http://artic.network/mev](/viruses/mev)
+
 
 **Requirements:**
 

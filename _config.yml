@@ -109,6 +109,16 @@ sidebars:
 description: "ARTIC network is a project funded by the Wellcome Trust to develop systems, protocols and bioinformatics for end-to-end pathogen genomics."
 # the description is used in the feed.xml file
 
+beast_version: "10.5.0"
+beast_url: "https://github.com/beast-dev/beast-mcmc/releases"
+
+tracer_version: "1.7.2"
+tracer_url: "https://github.com/beast-dev/tracer/releases"
+
+figtree_version: "1.4.4"
+figtree_url: "https://github.com/rambaut/figtree/releases"
+
+
 tutorials_root_url: /pages/training/tutorials
 # the base path for tutorial assets like images and files
 

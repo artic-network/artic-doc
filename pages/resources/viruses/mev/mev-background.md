@@ -17,6 +17,9 @@ author: ARTIC team
 citation: 
 ---
 
+This document is part of the MEV sequencing protocol package:
+: [http://artic.network/mev](/viruses/mev)
+
 ## Measles genomic epi: Why do it?
 
 ### 1. Introduction

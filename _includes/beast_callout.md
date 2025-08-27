@@ -7,7 +7,7 @@
                 </a>
             </div>
             <div style="width: 70%; display: table-cell; vertical-align: middle;">
-                <div style="vertical-align: middle;">BEAST - this package contains the <a href="https://beast.community">BEAST</a> program, <a href="https://beast.community/beauti">BEAUti</a> and a couple of utility programs. At the time of writing, the current version is v{{ site.beast_version }}. BEAST releases are  available for download from <a href="{{ site.beast_download_url }}">{{ site.beast_download_url }}</a>.</div>
+                <div style="vertical-align: middle;">BEAST - this package contains the <a href="https://beast.community">BEAST</a> program, <a href="https://beast.community/beauti">BEAUti</a> and a couple of utility programs. At the time of writing, the current version is v{{ site.beast_version }}. BEAST releases are  available for download from <a href="{{ site.beast_url }}">{{ site.beast_url }}</a>.</div>
             </div>
         </div>
     </div>

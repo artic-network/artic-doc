@@ -7,48 +7,41 @@ permalink: training
 folder: training
 ---
 
+{% assign docs = site.html_pages | where_exp:"item", "item.folder contains 'training'" |
+where_exp:"item", "item.category contains 'guide'" | sort: 'title' %}
+{% if docs and docs.size != 0 %}
 <div class="row">
     <div class="col-lg-12">
         <h2 class="page-header">Training Guides</h2>
     </div>
-    {% assign docs = site.html_pages | where_exp:"item", "item.category contains 'guide'" | sort: 'title' %}
-    {% for doc in docs %}
-    <div class="col-md-6">
-        <div class="media">
-            <div class="pull-left">
-                <span class="fa-stack fa-2x">
-                        <a class="post-link" href="{{ doc.url }}">
-                        <img  src="{{ doc.icon }}" alt="{{ doc.name }}" class="img-responsive" style="object-fit: contain; width: 64px; height: 64px; ; border-radius: 25%"/></a>
-                    </span>
-            </div>
-            <div class="media-body">
-                <h4 class="media-heading"><a class="post-link" href="{{ doc.url }}">{{ doc.title_text }}</a></h4>
-                <p>{{ doc.summary | strip_html | strip_newlines | truncate: 160 }}</p>
-            </div>
-        </div>
-    </div>
+    {% for page in docs %}
+    {% include subsection.html icon=page.icon title=page.title_text url=page.url summary=page.subtitle_text %}
     {% endfor %}
 </div>
+{% endif %}
 
+{% assign docs = site.html_pages | where_exp:"item", "item.folder contains 'training'" |
+where_exp:"item", "item.category contains 'tutorial'" | sort: 'title' %}
+{% if docs and docs.size != 0 %}
 <div class="row">
     <div class="col-lg-12">
         <h2 class="page-header">Tutorials</h2>
     </div>
-    {% assign docs = site.html_pages | where_exp:"item", "item.category contains 'tutorial'" | sort: 'title' %}
-    {% for doc in docs %}
-    <div class="col-md-6">
-        <div class="media">
-            <div class="pull-left">
-                <span class="fa-stack fa-2x">
-                        <a class="post-link" href="{{ doc.url }}">
-                        <img  src="{{ doc.icon }}" alt="{{ doc.name }}" class="img-responsive" style="object-fit: contain; width: 64px; height: 64px; ; border-radius: 25%"/></a>
-                    </span>
-            </div>
-            <div class="media-body">
-                <h4 class="media-heading"><a class="post-link" href="{{ doc.url }}">{{ doc.title_text }}</a></h4>
-                <p>{{ doc.summary | strip_html | strip_newlines | truncate: 160 }}</p>
-            </div>
-        </div>
-    </div>
+    {% for page in docs %}
+    {% include subsection.html icon=page.icon title=page.title_text url=page.url summary=page.subtitle_text %}
     {% endfor %}
 </div>
+{% endif %}
+
+{% assign docs = site.html_pages | where_exp:"item", "item.category == 'link'" | sort: 'title' %}
+{% if docs and docs.size != 0 %}
+<div class="row">
+    <div class="col-lg-12">
+        <h2 class="page-header">Links and Resources</h2>
+    </div>
+    {% for page in docs %}
+    {% include subsection.html icon=page.icon title=page.title_text subtitle=page.subtitle_text url=page.url  %}
+    {% endfor %}
+</div>
+{% endif %}
+

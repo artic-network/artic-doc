@@ -35,13 +35,16 @@ body {
     margin-top: -5px;
 }
 .bs-callout-default {
-    border-left-color: #777;
+    border-left-color: var(--main-colour);
 }
 .bs-callout-default h4 {
     color: #777;
 }
-.bs-callout-primary {
-    border-left-color: #428bca;
+.bs-callout-emphasis {
+    border-left-color: var(--lighter-colour);
+}
+.bs-callout-contrast {
+    border-left-color: var(--contrast-colour);
 }
 .bs-callout-primary h4 {
     color: #428bca;

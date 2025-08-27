@@ -17,10 +17,14 @@ category: cli
 ---
 
 {% include callout.html
-type='default'
+type='contrast'
 content='**Overview:** A complete bioinformatics protocol to take the output from the [sequencing protocol](/viruses/mev/mev-sequencing-guide.html) to consensus genome sequences. Includes mapping, polishing and consensus generation.
 '
 %}
+
+This document is part of the MEV sequencing protocol package:
+: [http://artic.network/mev](/viruses/mev)
+
 
 ## Preparation
 

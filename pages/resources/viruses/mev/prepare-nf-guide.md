@@ -18,7 +18,14 @@ category: setup
 order: 3
 ---
 
-**Overview:** This guide provides step-by-step instructions on how to use prepare-nf in EPI2ME, Oxford Nanopore Technologies’ data analysis platform. It can be used to create a sample sheet to be used as input file in the ARTIC bioinformatics amplicon-nf pipeline on a Desktop or Laptop computer without having to use a command-line interface.
+{% include callout.html
+type='contrast'
+content='**Overview:** This guide provides step-by-step instructions on how to install and run the ARTIC amplicon bioinformatics pipelines using EPI2ME on a Desktop or Laptop computer without having to use a command-line interface.
+'
+%}
+
+This document is part of the MEV sequencing protocol package:
+: [http://artic.network/mev](/viruses/mev)
 
 **Requirements:**
 

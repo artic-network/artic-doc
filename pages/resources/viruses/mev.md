@@ -28,7 +28,7 @@ tags: [resources, viruses]
 </ul>
 {% endif %}
 
-{% assign docs = site.html_pages | where_exp:"item", "item.folder contains page.virus" | where_exp:"item", "item.category contains 'setup'" | sort: 'title' %}
+{% assign docs = site.html_pages | where_exp:"item", "item.folder contains page.virus" | where_exp:"item", "item.category contains 'setup'" | sort: 'order' %}
 {% if docs and docs.size != 0 %}
 ### Setup guides
 <ul>
@@ -39,7 +39,7 @@ tags: [resources, viruses]
 </ul>
 {% endif %}
 
-{% assign docs = site.html_pages | where_exp:"item", "item.folder contains page.virus" | where_exp:"item", "item.category contains 'epi2me'"| sort: 'title' %}
+{% assign docs = site.html_pages | where_exp:"item", "item.folder contains page.virus" | where_exp:"item", "item.category contains 'epi2me'"| sort: 'order' %}
 {% if docs and docs.size != 0 %}
 ### User-interface pipelines using Epi2me
 <ul>
@@ -50,7 +50,7 @@ tags: [resources, viruses]
 </ul>
 {% endif %}
 
-{% assign docs = site.html_pages | where_exp:"item", "item.folder contains page.virus" | where_exp:"item", "item.category contains 'cli'" | sort: 'title' %}
+{% assign docs = site.html_pages | where_exp:"item", "item.folder contains page.virus" | where_exp:"item", "item.category contains 'cli'" | sort: 'order' %}
 {% if docs and docs.size != 0 %}
 ### Command line interface pipeline SOPs
 <ul>

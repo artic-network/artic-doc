@@ -3,6 +3,7 @@ title: Sequencing protocols
 keywords: resources
 summary: "Protocols for pathogen sequencing"
 sidebar: artic_sidebar
+toc: false
 permalink: protocols
 folder: resources
 ---

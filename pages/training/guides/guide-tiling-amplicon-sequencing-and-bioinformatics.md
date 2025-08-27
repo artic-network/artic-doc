@@ -1,17 +1,19 @@
 ---
 title: "A quick guide to tiling amplicon sequencing and downstream bioinformatics analysis"
-keywords: tutorial
 layout: document
-last_updated: Feb 12, 2020
+keywords: tutorial
 tags: [protocol] 
 permalink: /guides/quick-guide-to-tiling-amplicon-sequencing-bioinformatics
-title_text: "A quick guide to tiling amplicon sequencing and downstream bioinformatics analysis"
+title_text: "Tiling amplicon sequencing"
+subtitle_text: "A quick guide to tiling amplicon sequencing and downstream bioinformatics analysis"
+icon: /images/artic.png
+document_name: "ARTIC-Tiled-Amplicon-Sequencing"
 version: v1.0.0
 creation_date: 2020-02-12
+last_updated: 2020-02-12
 forked_from: 
 author: Nicholas Loman
-nav_menu: false
-show_tile: false
+folder: training
 category: guide
 ---
 

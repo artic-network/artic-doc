@@ -1,21 +1,21 @@
 ---
-title: "How to read a phylogenetic tree"
-keywords: tutorial
+title: "How to read a phylogenetic tree | Tutorial | Phylogenetics"
 layout: document
-last_updated: Feb 06, 2020
+keywords: tutorial
 tags: [protocol] 
 permalink: /guides/how-to-read-a-tree
 title_text: "How to read a phylogenetic tree"
-subtitle_text: "Tutorial | Phylogenetics"
+subtitle_text: "Part 1: An introduction to phylogenetic trees and how to interpret them."
+icon: /images/artic.png
 document_name: "ARTIC-Tutorial-Phylogenetics-Part1"
 version: v1.0.0
-revision_date: 2018-07-30
-creation_date: 2015-07-30 
+creation_date: 2015-07-30
+last_updated: 2018-07-30
 forked_from: 
 author: Andrew Rambaut
-nav_menu: false
-show_tile: false
+folder: training
 category: guide
+summary: "An introduction to phylogenetic trees and how to interpret them."
 ---
 
 <div id="tooltip" display="none" style="position: absolute; display: none;"></div>

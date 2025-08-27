@@ -18,23 +18,17 @@ order: 1
 ---
 
 {% include callout.html
-type='default'
+type='contrast'
 content='**Overview:** Instructions for setting up a computing environment for running the MinION sequencer and performing the bioinformatics and downstream phylogenetic analyses.'
 %}
 
-<br />
-
 This document is part of the MEV sequencing protocol package:
-: [http://artic.network/mev](/viruses/mpxv)
+: [http://artic.network/mev](/viruses/mev)
 
 #### Related documents:
 
 MEV nanopore bioinformatics protocol:
-: [http://artic.network/mev/mev-bioinformatics-sop.html](http://artic.network/mev/mev-bioinformatics-sop.html)
-
-<br /><br />
-
-{% include wellcome-trust.html %}
+: [http://artic.network/mev/mev-bioinformatics-sop.html](/viruses/mev/mev-bioinformatics-sop.html)
 
 <div class="pagebreak"> </div>
 

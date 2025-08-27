@@ -1,21 +1,21 @@
 ---
-title: "Estimating time scales using molecular clocks"
-keywords: tutorial
+title: "Estimating time scales using molecular clocks | Tutorial | Phylogenetics"
 layout: document
-last_updated: Jul 11, 2021
+keywords: tutorial
 tags: [protocol] 
-permalink: /guides/estimating-time-scales
-title_text: "How to read a tree part 2: Estimating time scales using molecular clocks"
-subtitle_text: "Tutorial | Phylogenetics"
+permalink: /guides/estimating-time-scales.html
+title_text: "How to read a tree"
+subtitle_text: "Part 2: Estimating time scales using molecular clocks"
+icon: /images/artic.png
 document_name: "ARTIC-Tutorial-Phylogenetics-Part2"
 version: v1.0.0
-revision_date: 2021-07-11
-creation_date: 2021-07-11 
+creation_date: 2021-07-11
+last_updated: 2025-08-27
 forked_from: 
 author: Andrew Rambaut
-nav_menu: false
-show_tile: false
+folder: training
 category: guide
+summary: "An introduction to phylogenetic trees and how to interpret them."
 ---
 
 Phylogenetic trees usually have branch lengths in units of genetic change either as a count of the number of nucleotide differences or an estimate of the average number of changes per site in the genome. The latter estimates accommodate the fact that some of the genome may be missing in the sequence but the two are very similar when the number of mutations are small.
