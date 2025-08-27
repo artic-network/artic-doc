@@ -18,6 +18,7 @@ tags: [resources, viruses]
 
 {% assign docs = site.html_pages | where_exp:"item", "item.folder contains page.virus" | where_exp:"item", "item.category contains 'guide'" | sort: 'order' %}
 {% if docs and docs.size != 0 %}
+
 ### Background
 <ul>
 {% for doc in docs %}

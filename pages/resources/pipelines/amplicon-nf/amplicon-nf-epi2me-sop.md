@@ -1,13 +1,13 @@
 ---
 title: Bioinformatic Analysis of amplicon sequencing data with amplicon-nf using the EPI2MElabs desktop client
-keywords: protocol
+keywords: Nanopore | Illumina | Bioinformatics | Pipeline
 layout: document
 tags:
   - protocol
 permalink: /resources/amplicon-nf-epi2me-sop.html
-folder: pipelines
-title_text: "amplicon-nf: Running the pipeline in EPI2ME"
-subtitle_text: Nanopore | Illumina | Bioinformatics
+folder: amplicon-nf
+title_text: "amplicon-nf: Running in EPI2ME"
+subtitle_text: Using EPI2ME for running the ARTIC amplicon-nf pipeline without the commandline
 icon: /images/software/field-bioinformatics-icon.png
 document_name: ARTIC-amplicon_nf-epi2me-SOP
 version: v1.0.0

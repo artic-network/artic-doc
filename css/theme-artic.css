@@ -65,6 +65,12 @@ a {color: var(--lighter-colour); }
     font-size: 14pt;
 }
 
+.media-subheading {
+    font-weight: 200;
+    font-style: oblique;
+    font-size: 10pt;
+}
+
 .media-body {
     font-weight: 50;
     font-size: 12pt;

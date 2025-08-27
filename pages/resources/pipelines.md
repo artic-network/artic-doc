@@ -4,7 +4,7 @@ keywords: resources
 summary: "Pipelines for analysing viral sequencing data"
 sidebar: artic_sidebar
 toc: false
-permalink: pipelines
+permalink: /pipelines
 folder: resources
 ---
 
@@ -14,7 +14,7 @@ folder: resources
     </div>
     {% for page in site.html_pages %}
     {% if page.folder == "pipelines" %}
-    {% include subsection.html icon=page.icon title=page.title_text subtitle=page.subtitle_text url=page.url %}
+    {% include subsection.html icon=page.icon title=page.title_text subtitle=page.subtitle_text keywords=page.keywords url=page.url %}
     {% endif %}
     {% endfor %}
 </div>
