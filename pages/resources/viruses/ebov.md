@@ -8,6 +8,7 @@ sidebar: artic_sidebar
 permalink: /viruses/ebov
 icon: /images/viruses/ebov_icon.svg
 folder: viruses
+category: virus
 keywords: resources
 tags: [resources, viruses]
 ---

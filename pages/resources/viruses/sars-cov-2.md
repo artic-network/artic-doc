@@ -8,6 +8,7 @@ image: /images/viruses/cov.png
 permalink: /viruses/sars-cov-2
 icon: /images/viruses/sars-cov-2_icon.svg
 folder: viruses
+category: virus
 keywords: resources
 tags: [resources, viruses]
 ---

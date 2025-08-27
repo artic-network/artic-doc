@@ -7,6 +7,7 @@ image: /images/viruses/mpxv.png
 permalink: /viruses/mpxv
 icon: /images/viruses/mpxv_icon.svg
 folder: viruses
+category: virus
 virus: mpxv
 keywords: resources
 tags: [resources, viruses]

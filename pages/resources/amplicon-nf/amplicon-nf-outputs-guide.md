@@ -5,19 +5,16 @@ layout: document
 tags:
   - protocol
 permalink: /resources/amplicon-nf/amplicon-nf-epi2me-outputs-guide.html
-folder: amplicon-nf
+folder: pipelines
 title_text: "amplicon-nf: Viewing outputs in EPI2ME"
 subtitle_text: Nanopore | Illumina | Bioinformatics
+icon: /images/software/field-bioinformatics-icon.png
 document_name: ARTIC-amplicon_nf-outputs-guide
 version: v1.0.0
 creation_date: 2025-08-27
 forked_from: null
 author: Sam Wilkinson
-nav_menu: false
-show_tile: false
-category: 
-   - mev-epi2me
-   - mpxv-epi2me
+category: guide
 ---
 
 {% include callout.html

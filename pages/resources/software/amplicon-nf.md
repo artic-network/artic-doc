@@ -5,13 +5,13 @@ summary: "a bioinformatics pipeline that takes sequencing reads generated from A
 sidebar: artic_sidebar
 permalink: /software/amplicon-nf
 icon: /images/software/field-bioinformatics-icon.png
-folder: software
+folder: _software
 tags: [resources, software]
 ---
 
 ## Overview
 
-It is designed to help automate the artic bioinformatics protocols; for example the MEV protocol.
+It is designed to help automate the ARTIC bioinformatics protocols; for example the MEV protocol.
 
 ## Features include:
 

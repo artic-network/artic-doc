@@ -8,6 +8,7 @@ image: /images/viruses/mev.png
 permalink: /viruses/mev
 icon: /images/viruses/mev_icon.svg
 folder: viruses
+category: virus
 virus: mev
 keywords: resources
 tags: [resources, viruses]

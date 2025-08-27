@@ -4,20 +4,17 @@ keywords: protocol
 layout: document
 tags:
   - protocol
-permalink: /resources/amplicon-nf/amplicon-nf-epi2me-sop.html
-folder: amplicon-nf
+permalink: /resources/amplicon-nf-epi2me-sop.html
+folder: pipelines
 title_text: "amplicon-nf: Running the pipeline in EPI2ME"
 subtitle_text: Nanopore | Illumina | Bioinformatics
+icon: /images/software/field-bioinformatics-icon.png
 document_name: ARTIC-amplicon_nf-epi2me-SOP
 version: v1.0.0
 creation_date: 2025-08-21
 forked_from: null
 author: Sam Wilkinson
-nav_menu: false
-show_tile: false
-category: 
-   - mev-epi2me
-   - mpxv-epi2me
+category: guide
 ---
 
 {% include callout.html
