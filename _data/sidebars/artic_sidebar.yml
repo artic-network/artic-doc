@@ -30,6 +30,10 @@ entries:
             url: /protocols
             output: web, pdf
 
+          - title: Pipelines
+            url: /pipelines
+            output: web, pdf
+
           - title: Software
             url: /software
             output: web, pdf
