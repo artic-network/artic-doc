@@ -76,6 +76,9 @@ These are individual documents that follow a particular layout and are intended 
 `last_updated: 2024-08-20`
 : When the document was last updated. When you update a document, update this.
 
+`forked_from: <document name>`
+: If a document is a copy and edit from another document then this can be specified here.
+
 `author: ARTIC team`
 : The author or authors of the document
 
