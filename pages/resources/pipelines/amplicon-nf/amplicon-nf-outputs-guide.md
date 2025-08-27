@@ -1,14 +1,14 @@
 ---
-title: Viewing amplicon-nf outputs when using the EPI2MElabs desktop client
+title: "amplicon-nf: Viewing outputs of the pipeline in EPI2ME"
 keywords: Nanopore | Illumina | Bioinformatics | Pipeline
 layout: document
 tags:
   - protocol
 permalink: /amplicon-nf/amplicon-nf-epi2me-outputs-guide.html
 folder: amplicon-nf
-title_text: "Viewing outputs of the <code>amplicon-nf</code> pipeline in EPI2ME"
+title_text: "<strong>amplicon-nf</strong>: Viewing outputs of the pipeline in EPI2ME"
 subtitle_text: Viewing outputs of the amplicon-nf pipeline in EPI2ME
-icon: /images/software/field-bioinformatics-icon.png
+icon: /images/protocols/amplicon.svg
 document_name: ARTIC-amplicon_nf-outputs-guide
 version: v1.0.0
 creation_date: 2025-08-27
