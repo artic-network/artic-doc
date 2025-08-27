@@ -41,7 +41,7 @@ These are individual documents that follow a particular layout and are intended 
 : This is the title of the document - will appear at the top of the browser.
 
 `keywords: resources`
-: 
+: Can't remember what this is used for - probably for search.
 
 `layout: document`
 : This layout is specifically for printable documents
