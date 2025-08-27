@@ -2,6 +2,7 @@
 title: PrimalScheme
 title_text: "PrimalScheme"
 subtitle_text: "Software to generate primers schemes from a virus Multiple Sequence Alignment."
+image: /images/software/primal-scheme.png
 summary: "PrimalScheme software"
 sidebar: artic_sidebar
 permalink: /software/PrimalScheme
