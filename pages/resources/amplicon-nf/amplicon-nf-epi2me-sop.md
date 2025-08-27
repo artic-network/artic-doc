@@ -129,7 +129,7 @@ sample-1,illumina,artic-measles/400/v1.0.0
 sample-2,illumina,artic-measles/400/v1.0.0
 ```
 
-> *We have generated an [example implicit matched Illumina samplesheet]([../assets/samplesheet.illumina_implicit.csv](https://docs.google.com/spreadsheets/d/1WcCGpntX9HNhCgKcqgCKow9OioImCUR3vX90w0Qu6Ps/edit?usp=sharing)) which is available here for your reference.*
+> *We have generated an [example implicit matched Illumina samplesheet](https://docs.google.com/spreadsheets/d/1WcCGpntX9HNhCgKcqgCKow9OioImCUR3vX90w0Qu6Ps/edit?usp=sharing) which is available here for your reference.*
 >
 > *You may wish to copy this and use it as a basis for your own samplesheets, to download a samplesheet CSV which is compatible with the pipeline; press **"File"**, **"Download"**, then **"Comma Separated Values (.csv)"**.*
 
