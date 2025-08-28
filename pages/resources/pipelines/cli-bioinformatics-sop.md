@@ -1,16 +1,16 @@
 ---
-title: "MEV Nanopore sequencing bioinformatics protocol | amplicon"
-keywords: protocol
+title: "Nanopore sequencing bioinformatics protocol | amplicon"
+keywords: pipeline
 layout: document
-last_updated: 2024-08-20
-tags: [protocol]
-permalink: /viruses/mev/mev-bioinformatics-sop.html
+tags: [pipelines]
+permalink: /pipelines/cli-bioinformatics-sop.html
 folder: mev
-title_text: MEV Nanopore sequencing bioinformatics protocol
+title_text: Nanopore sequencing bioinformatics protocol
 subtitle_text: Nanopore | bioinformatics
 document_name: ARTIC-MEV-bioinformaticsSOP
 version: v1.0.0
 creation_date: 2024-08-20
+last_updated: 2025-08-28
 author: Rachel Colquhoun
 citation: Loman *et al.* In Prep.
 category: cli
@@ -21,10 +21,6 @@ type='contrast'
 content='**Overview:** A complete bioinformatics protocol to take the output from the [sequencing protocol](/viruses/mev/mev-sequencing-guide.html) to consensus genome sequences. Includes mapping, polishing and consensus generation.
 '
 %}
-
-This document is part of the MEV sequencing protocol package:
-: [http://artic.network/mev](/viruses/mev)
-
 
 ## Preparation
 

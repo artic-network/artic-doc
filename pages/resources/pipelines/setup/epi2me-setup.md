@@ -5,15 +5,15 @@ layout: document
 tags: [protocol]
 summary: null
 permalink: /pipelines/epi2me-setup.html
-folder: mev
 title_text: Setting up and using EPI2ME for running the ARTIC amplicon-nf pipeline
 subtitle_text: ARTIC pipelines | bioinformatics
 document_name: ARTIC-EPI2ME-Setup
-version: v1.0
+version: v1.0.0
 creation_date: 
 last_updated: 2025-08-28 
 author: Elli Mylona
 citation:
+folder: pipelines
 category: setup
 order: 2
 ---
