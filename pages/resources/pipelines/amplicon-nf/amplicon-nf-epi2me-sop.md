@@ -57,9 +57,10 @@ If you are running ONT sequenced samples through the pipeline, the fastq_pass di
 ```
 
 There are two ways to provide the location of the sequencing read data for ONT data:
-a) With implicit (fuzzy) matching of FASTQ directories based on the provided `barcode` column, this option will match up subdirectories of the directory provided with the `--read_directory` parameter so you will not have to provide filepaths within the samplesheet.
 
-b) With explicit FASTQ directories within the samplesheet in the `fastq_directory` column. This approach may reduce the risk of mismatching metadata and read data, however you will need to be able to identify the absolute path to the read directory. 
+**a)** With implicit (fuzzy) matching of FASTQ directories based on the provided `barcode` column, this option will match up subdirectories of the directory provided with the `--read_directory` parameter so you will not have to provide filepaths within the samplesheet.
+
+**b)** With explicit FASTQ directories within the samplesheet in the `fastq_directory` column. This approach may reduce the risk of mismatching metadata and read data, however you will need to be able to identify the absolute path to the read directory. 
 
 
 ### a: Implicit (fuzzy) FASTQ Directory Input
@@ -109,9 +110,9 @@ If you are running Illumina sequenced samples through the pipeline then you only
 
 As with ONT data, there are two ways to setup samplesheets for Illumina datasets; 
 
-a) With implicit (fuzzy) matching of FASTQ file pairs based on the provided `sample` column, this option will match up file pairs within the directory provided with the `--read_directory` parameter so you will not have to provide filepaths within the samplesheet.
+**a)** With implicit (fuzzy) matching of FASTQ file pairs based on the provided `sample` column, this option will match up file pairs within the directory provided with the `--read_directory` parameter so you will not have to provide filepaths within the samplesheet.
 
-b) With explicit FASTQ directories within the samplesheet in the `fastq_1` and `fastq_2` columns. This approach may reduce the risk of mismatching metadata and read data, however you will need to be able to identify the absolute path to the read directory. 
+**b)** With explicit FASTQ directories within the samplesheet in the `fastq_1` and `fastq_2` columns. This approach may reduce the risk of mismatching metadata and read data, however you will need to be able to identify the absolute path to the read directory. 
 
 ### a: Implicit (fuzzy) matched paired FASTQ Input
 
