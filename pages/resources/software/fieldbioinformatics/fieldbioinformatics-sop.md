@@ -113,7 +113,7 @@ For each barcode you wish to process (e.g. run this command 12 times for 12 barc
 
 E.g. for barcode03
 ```bash
-artic minion --normalise 200 --threads 4 --scheme-directory ~/primer_schemes --scheme-name artic-measles --scheme-length 400 --scheme-version v1.0.0 --read-file run_name_barcode03.fastq samplename
+artic minion --normalise 200 --threads 4 --scheme-directory ~/primer_schemes --scheme-name artic-inrb-mpox --scheme-length 2500 --scheme-version v1.0.0 --read-file run_name_barcode03.fastq samplename
 ```
 
 ## Custom primer schemes
