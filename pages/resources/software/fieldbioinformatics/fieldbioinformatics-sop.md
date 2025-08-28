@@ -68,14 +68,6 @@ mkdir run_name
 cd run_name
 ```
 
-## Activate the ARTIC environment:
-
-All steps in this tutorial should be performed in the ```artic``` conda environment (if you have previously activated the environment in the previous steps you will not need to do so again):
-
-```bash
-conda activate artic
-```
-
 ## Read filtering
 
 Because ARTIC protocol can generate chimeric reads, we perform length filtering.
