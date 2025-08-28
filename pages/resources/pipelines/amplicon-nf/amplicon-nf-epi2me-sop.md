@@ -221,6 +221,6 @@ When the workflow has finished the "Running" icon at the top of the window will 
 
 <img width="1000" src="/images/amplicon-nf/epi2me_amp-nf_completed.png">
 
-Hopefully you will encounter no issues while running the pipeline, in which case, you might wish to read our [epi2me amplicon-nf outputs guide](/resources/amplicon-nf/amplicon-nf-epi2me-outputs-guide.html) which will walk you through the different output files, their formats, and how to access them from the epi2me client.
+Hopefully you will encounter no issues while running the pipeline, in which case, you might wish to read our [epi2me amplicon-nf outputs guide](/amplicon-nf/amplicon-nf-epi2me-outputs-guide.html) which will walk you through the different output files, their formats, and how to access them from the epi2me client.
 
 However, if you do encounter any issues we have a dedicated document which details problems you may encounter and their possible solutions [on the amplicon-nf repository](https://github.com/artic-network/amplicon-nf/blob/main/docs/problems.md). Please check here when you encounter problems but if your problem is not described there or the solutions do not help please consider [creating a github issue](https://github.com/artic-network/amplicon-nf/issues/new/choose) so we can discuss it with you directly!
