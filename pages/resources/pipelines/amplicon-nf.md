@@ -7,7 +7,7 @@ permalink: /resources/amplicon-nf
 folder: pipelines
 title_text: "amplicon-nf"
 subtitle_text: A nextflow pipeline for viral amplicon sequencing data
-icon: /images/protocols/amplicon.svg
+icon: /images/amplicon-nf-logo.svg
 ---
 
 ## Description
