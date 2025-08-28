@@ -5,7 +5,6 @@ layout: document
 tags:
   - protocol
 permalink: /amplicon-nf/amplicon-nf-epi2me-sop.html
-folder: amplicon-nf
 title_text: "<strong>amplicon-nf</strong>: Running the pipeline in EPI2ME"
 subtitle_text: Using EPI2ME for running the ARTIC amplicon-nf pipeline without the commandline
 icon: /images/amplicon-nf-logo.svg
@@ -14,6 +13,7 @@ version: v1.0.0
 creation_date: 2025-08-21
 forked_from: null
 author: Sam Wilkinson
+folder: amplicon-nf | mev
 category: guide
 ---
 

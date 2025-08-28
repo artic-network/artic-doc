@@ -14,7 +14,7 @@ last_updated: 2025-08-28
 author: Elli Mylona
 citation: null
 folder: pipelines | mev
-category: setup
+category: epi2me
 order: 3
 ---
 
