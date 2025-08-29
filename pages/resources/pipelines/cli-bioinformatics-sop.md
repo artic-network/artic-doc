@@ -1,5 +1,5 @@
 ---
-title: "Nanopore sequencing bioinformatics protocol | amplicon"
+title: "Using prepare-nf to gen"
 keywords: pipeline
 layout: document
 tags: [pipelines]
@@ -13,7 +13,7 @@ creation_date: 2024-08-20
 last_updated: 2025-08-28
 author: Rachel Colquhoun
 citation: Loman *et al.* In Prep.
-category: cli
+category: hidden
 ---
 
 {% include callout.html

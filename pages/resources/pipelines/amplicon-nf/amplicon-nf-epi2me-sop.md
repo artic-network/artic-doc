@@ -14,7 +14,7 @@ creation_date: 2025-08-21
 forked_from: null
 author: Sam Wilkinson
 folder: amplicon-nf | mev
-category: guide
+category: epi2me
 ---
 
 {% include callout.html
