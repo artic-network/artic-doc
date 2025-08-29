@@ -13,7 +13,7 @@ creation_date:
 last_updated: 2025-08-28 
 author: Elli Mylona
 citation:
-folder: pipelines
+folder: hidden
 category: hidden
 order: 2
 ---

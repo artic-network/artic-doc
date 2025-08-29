@@ -8,6 +8,7 @@ folder: pipelines
 title_text: "amplicon-nf"
 subtitle_text: A nextflow pipeline for viral amplicon sequencing data
 icon: /images/amplicon-nf-logo.svg
+toc: false
 ---
 
 ## Description
