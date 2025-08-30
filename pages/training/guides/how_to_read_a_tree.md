@@ -15,6 +15,7 @@ forked_from:
 author: Andrew Rambaut
 folder: training
 category: guide
+order: 1
 summary: "An introduction to phylogenetic trees and how to interpret them."
 ---
 
