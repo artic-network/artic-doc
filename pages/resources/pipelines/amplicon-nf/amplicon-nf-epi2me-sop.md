@@ -116,7 +116,7 @@ As with ONT data, there are two ways to setup samplesheets for Illumina datasets
 
 ### a: Implicit (fuzzy) matched paired FASTQ Input
 
-> *If you have data from an Illumina sequencing run with separate lanes (you can tell if your FASTQ file names contain lane tags which look like `_L001` or `_L002` in them) then this **will not work** due to how Illumina sequencers name FASTQ files from different lanes, in this case you should either concatenate the paired FASTQs from each lane or use the explicit set up (b) above (recommended).*
+> *If you have data from an Illumina sequencing run with separate lanes (you can tell if your FASTQ file names contain lane tags which look like `_L001` or `_L002` in them) then this **will not work** due to how Illumina sequencers name FASTQ files from different lanes, in this case you should either concatenate the paired FASTQs from each lane or use the explicit set up (b) below (recommended).*
 
 If you wish to utilise fuzzy directory matching then a valid samplesheet could look like this (remember, the `run_fastq_directory` path **MUST** be provided with the `read_directory` parameter for this samplesheet to be valid).
 
