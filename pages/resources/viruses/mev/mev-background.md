@@ -6,7 +6,7 @@ last_updated: 2024-08-23
 tags: [protocol] 
 permalink: /viruses/mev/mev-background.html
 folder: mev
-category: guide
+category: background
 order: 1
 title_text: "Measles virus genomic epidemiology"
 subtitle_text: "A primer on measles virus genomic epidemiology and why we do it"
@@ -14,6 +14,7 @@ document_name: "ARTIC-MeV-guide"
 version: v1.0.0
 creation_date: 2024-08-20
 author: ARTIC team
+icon: /images/viruses/mev_icon.svg
 citation: 
 ---
 

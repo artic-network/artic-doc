@@ -8,6 +8,7 @@ folder: pipelines
 title_text: "amplicon-nf"
 subtitle_text: A nextflow pipeline for viral amplicon sequencing data
 icon: /images/amplicon-nf-logo.svg
+toc: false
 ---
 
 ## Description
@@ -16,7 +17,7 @@ artic-network/amplicon-nf is a bioinformatics pipeline that takes sequencing rea
 
 Full documentation for running the pipeline on the command-line [is available in the github repository](https://github.com/artic-network/amplicon-nf/tree/main/docs), however, if you prefer to utilise a GUI, we have SOPs for running the pipeline using [EPI2ME](https://epi2me.nanoporetech.com/) available below.
 
-{% assign docs = site.html_pages | where_exp:"item", "item.folder == 'amplicon-nf'" | sort: 'title' %}
+{% assign docs = site.html_pages | where_exp:"item", "item.folder contains 'amplicon-nf'" | sort: 'title' %}
 {% if docs and docs.size != 0 %}
 <div class="row">
     <div class="col-lg-12">

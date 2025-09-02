@@ -4,7 +4,7 @@ layout: document
 keywords: protocol
 tags: [protocol]
 permalink: /fieldbioinformatics/fieldbioinformatics-sop.html
-title_text: "Fieldbioinformatics: viral amplicon sequencing bioinformatics SOP"
+title_text: "<strong>Fieldbioinformatics</strong>: viral amplicon sequencing bioinformatics SOP"
 subtitle_text: "Nanopore | bioinformatics"
 document_name: "fieldbioinformatics-SOP"
 version: v1.0.0
@@ -12,7 +12,7 @@ creation_date: 2024-08-20
 last_updated: 2025-08-27
 author: Sam Wilkinson
 citation: "Loman *et al.* In Prep."
-folder: fieldbioinformatics
+folder: fieldbioinformatics | cli | mev
 icon: /images/software/field-bioinformatics-icon.png
 category: cli
 order: 2
