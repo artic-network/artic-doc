@@ -30,10 +30,28 @@ Before you we begin you will need to create a samplesheet in CSV (comma separate
 If you already have a valid samplesheet prepared, you may skip to the next section!
 
 
-## 1) Scheme name
-Whichever platform was used to generate the data, you will need the amplicon `scheme_name`. The example in the guide below uses the `artic-measles/400/v1.0.0` scheme, however this will change depending on the primer scheme that was used used to generate the data. If you are unsure, check the name on [primalscheme labs](https://labs.primalscheme.com/) and ensure it follows the pattern `<SCHEME>/<SCHEME_LENGTH>/<VERSION>`.
+## 1) Primer Scheme
+Whichever platform was used to generate the data, you will need to tell the pipeline which primer scheme you used to generate your data, there are two ways to do this depending on whether you used an official primer scheme (it is stored in [primalscheme labs](https://labs.primalscheme.com/)) or a custom primer scheme.
 
+### a: ARTIC Primer schemes
 
+ARTIC primer schemes should be provided with the `scheme_name` field in the samplesheet. The example in the guide below uses the `artic-measles/400/v1.0.0` scheme, however this will change depending on the primer scheme that was used used to generate the data. If you are unsure, check the name on [primalscheme labs](https://labs.primalscheme.com/) and ensure it follows the pattern `<SCHEME>/<SCHEME_LENGTH>/<VERSION>`.
+
+The pipeline will automatically find the scheme and download it for you if you do this.
+
+### b: Custom Primer Schemes
+
+If you have used a primer scheme which is not on the ARTIC primerschemes repository, you will have to provide two different fields in the samplesheet, `custom_scheme_path` and `custom_scheme_name`.
+
+Your custom scheme files **must** be named like this:
+
+```
+/some/directory/custom_scheme
+   ├── primer.bed
+   └── reference.fasta
+```
+
+In which case you would provide the `custom_scheme_path` of `/some/directory/custom_scheme` and a `custom_scheme_name` which reflects your custom scheme in the samplesheet.
 
 ## 2) Oxford Nanopore (ONT) specific set up
 
