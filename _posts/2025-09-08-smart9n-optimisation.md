@@ -1,7 +1,7 @@
 ---
 title: "Optimisation of SMART-9N for viral metagenomics"
 published: True
-permalink: 2025-09-08-wastewater_based_epidemiology_AGD.html
+permalink: 2025-09-08-smart9n-optimisation.html
 tags: [news]
 author: Mia Weaver
 ---
