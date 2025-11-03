@@ -14,7 +14,7 @@ creation_date: 2025-08-21
 forked_from: null
 author: Sam Wilkinson
 folder: amplicon-nf | mev
-category: guide
+category: epi2me
 ---
 
 {% include callout.html
@@ -30,10 +30,28 @@ Before you we begin you will need to create a samplesheet in CSV (comma separate
 If you already have a valid samplesheet prepared, you may skip to the next section!
 
 
-## 1) Scheme name
-Whichever platform was used to generate the data, you will need the amplicon `scheme_name`. The example in the guide below uses the `artic-measles/400/v1.0.0` scheme, however this will change depending on the primer scheme that was used used to generate the data. If you are unsure, check the name on [primalscheme labs](https://labs.primalscheme.com/) and ensure it follows the pattern `<SCHEME>/<SCHEME_LENGTH>/<VERSION>`.
+## 1) Primer Scheme
+Whichever platform was used to generate the data, you will need to tell the pipeline which primer scheme you used to generate your data, there are two ways to do this depending on whether you used an official primer scheme (it is stored in [primalscheme labs](https://labs.primalscheme.com/)) or a custom primer scheme.
 
+### a: ARTIC Primer schemes
 
+ARTIC primer schemes should be provided with the `scheme_name` field in the samplesheet. The example in the guide below uses the `artic-measles/400/v1.0.0` scheme, however this will change depending on the primer scheme that was used used to generate the data. If you are unsure, check the name on [primalscheme labs](https://labs.primalscheme.com/) and ensure it follows the pattern `<SCHEME>/<SCHEME_LENGTH>/<VERSION>`.
+
+The pipeline will automatically find the scheme and download it for you if you do this.
+
+### b: Custom Primer Schemes
+
+If you have used a primer scheme which is not on the ARTIC primerschemes repository, you will have to provide two different fields in the samplesheet, `custom_scheme_path` and `custom_scheme_name`.
+
+Your custom scheme files **must** be named like this:
+
+```
+/some/directory/custom_scheme
+   ├── primer.bed
+   └── reference.fasta
+```
+
+In which case you would provide the `custom_scheme_path` of `/some/directory/custom_scheme` and a `custom_scheme_name` which reflects your custom scheme in the samplesheet.
 
 ## 2) Oxford Nanopore (ONT) specific set up
 
@@ -115,8 +133,6 @@ As with ONT data, there are two ways to setup samplesheets for Illumina datasets
 **b)** With explicit FASTQ directories within the samplesheet in the `fastq_1` and `fastq_2` columns. This approach may reduce the risk of mismatching metadata and read data, however you will need to be able to identify the absolute path to the read directory. 
 
 ### a: Implicit (fuzzy) matched paired FASTQ Input
-
-> *If you have data from an Illumina sequencing run with separate lanes (you can tell if your FASTQ file names contain lane tags which look like `_L001` or `_L002` in them) then this **will not work** due to how Illumina sequencers name FASTQ files from different lanes, in this case you should either concatenate the paired FASTQs from each lane or use the explicit set up (b) above (recommended).*
 
 If you wish to utilise fuzzy directory matching then a valid samplesheet could look like this (remember, the `run_fastq_directory` path **MUST** be provided with the `read_directory` parameter for this samplesheet to be valid).
 

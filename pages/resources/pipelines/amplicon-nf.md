@@ -2,7 +2,6 @@
 title: amplicon-nf&#58; A nextflow pipeline for viral amplicon sequencing data
 keywords: Amplicon | Bioinformatics | Pipeline
 summary: artic-network/amplicon-nf is a bioinformatics pipeline that takes sequencing reads generated from ARTIC-style viral amplicon sequencing schemes, assembles them into consensus sequences, and runs some basic quality control on the outputs.
-
 tags:
   - protocol
 permalink: /resources/amplicon-nf

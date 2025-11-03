@@ -13,7 +13,7 @@ creation_date:
 last_updated: 2025-08-28 
 author: Elli Mylona
 citation: null
-folder: pipelines | mev
+folder: hidden
 category: epi2me
 order: 3
 ---
