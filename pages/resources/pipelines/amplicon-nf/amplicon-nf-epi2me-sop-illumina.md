@@ -65,7 +65,7 @@ If you are running Illumina sequenced samples through the pipeline then you only
    └── sample-2_S2_R2_001.fastq.gz
 ```
 
-As with ONT data, there are two ways to setup samplesheets for Illumina datasets; 
+There are two ways to setup samplesheets for Illumina datasets; 
 
 **a)** With implicit (fuzzy) matching of FASTQ file pairs based on the provided `sample` column, this option will match up file pairs within the directory provided with the `--read_directory` parameter so you will not have to provide filepaths within the samplesheet.
 
