@@ -29,6 +29,17 @@ toc: false
 {% endfor %}
 {% endif %}
 
+### Primer scheme
+
+<div class="row">
+        {% include subsection.html icon="/images/software/primal-scheme.png" title="artic-measles/400/v1.0.0 Primer Scheme" url="https://labs.primalscheme.com/detail/artic-measles/400/v1.0.0" summary="The ARTIC-network primer scheme for sequencing MEV" %}
+</div>
+
+### Wet-lab Protocol
+
+<div class="row">
+        {% include subsection.html icon="/images/software/protocols-io.png" title="ARTIC-network MEV wet-lab protocol" url="https://www.protocols.io/view/artic-measles-400-v1-0-0-protocol-5qpvody39g4o/v1" summary="The ARTIC-network wet-lab protocol for sequencing MEV using the artic-measles/400/v1.0.0 primer scheme" %}
+</div>
 
 {% assign docs = site.html_pages | where_exp:"item", "item.folder contains page.virus" | where_exp:"item", "item.category contains 'setup'" | sort: 'order' %}
 {% if docs and docs.size != 0 %}
