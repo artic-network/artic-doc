@@ -84,3 +84,4 @@ These are individual documents that follow a particular layout and are intended 
 
 `citation:`
 : A citation in text format to a publication using a DOI or similar. If the document has been published.
+ 

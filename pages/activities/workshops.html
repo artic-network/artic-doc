@@ -13,7 +13,7 @@ tags: [workshop]
         <h2 class="page-header">Upcoming Workshops</h2>
     </div>
     {% for page in site.html_pages %}
-    {% if page.folder == "workshops" && page.status == "open" %}
+    {% if page.folder == "workshops" and page.status == "open" %}
     <div class="col-md-6">
         <div class="media">
             <div class="pull-left">

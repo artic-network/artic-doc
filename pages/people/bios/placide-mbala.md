@@ -2,6 +2,7 @@
 title: Placide Mbala-Kingebeni
 surname: Mbala-Kingebeni
 institution: 
+institution_id: inrb
 biography:
 project: artic2
 role: investigator
