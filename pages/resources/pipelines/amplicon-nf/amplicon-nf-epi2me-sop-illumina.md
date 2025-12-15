@@ -13,7 +13,7 @@ version: v1.0.0
 creation_date: 2025-08-21
 forked_from: null
 author: Sam Wilkinson
-folder: amplicon-nf | mev
+folder: amplicon-nf | mev | mpxv
 category: epi2me
 ---
 
