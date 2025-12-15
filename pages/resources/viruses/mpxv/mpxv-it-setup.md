@@ -12,8 +12,6 @@ creation_date: 2024-08-20
 last_updated: 2024-08-20
 author: Nick Loman, Andrew Rambaut
 citation: "Loman *et al.* In Prep."
-folder: mpxv
-category: setup
 order: 1
 ---
 

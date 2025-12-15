@@ -13,8 +13,6 @@ creation_date: 2024-08-22
 last_updated: 2024-08-22
 author: Lauren Lansdowne
 citation: 
-folder: mpxv
-category: setup
 order: 2
 ---
 
@@ -31,18 +29,6 @@ content="**Overview:** This document walks-through how to install and setup Oxfo
 
 ---
 
-## Installing the EPI2ME software
-
-EPI2ME is a standard desktop software package available for Windows, Macintosh and Linux operating systems and is used to run 'NextFlow' pipelines in a simple easy-to-use environment without interacting with a command-line. It can be obtained from the EPI2ME website --- [https://labs.epi2me.io]() --- with downloads for each operating system available from the download page:
-
-> [https://labs.epi2me.io/downloads/](https://labs.epi2me.io/downloads/)
-
-Once you have downloaded the appropriate installer for your operating system, install it in the usual way.
-
-## Initial setup of EPI2ME
-
-The first time you run EPI2ME it may need to install some additional software. It will guide you through this process.
-
 ## Using an ARTIC MPXV analysis pipeline in EPI2ME
 
 ## ---
@@ -57,7 +43,7 @@ Then select “Import workflow”.
 
 <img width="500" src="/images/mpxv/ont-sop/screenshot_2.png">
 
-A pop-up window will appear where you can enter the GitHub URL. Enter the URL and click “Download” ([https://github.com/artic-network/artic-mpxv-nf](https://github.com/BioWilko/artic-mpxv-nf)):
+A pop-up window will appear where you can enter the GitHub URL. Enter the URL and click “Download” ([https://github.com/artic-network/artic-mpxv-nf](https://github.com/artic-network/artic-mpxv-nf)):
 
 <img width="500" src="/images/mpxv/ont-sop/screenshot_3.png">
  
