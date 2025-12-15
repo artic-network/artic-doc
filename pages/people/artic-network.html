@@ -90,7 +90,7 @@ folder: people
 
     <div class="row">
         <div class="col-lg-12">
-            <h2 class="page-header">ARTIC 2</h2>
+            <h2 class="page-header">People</h2>
         </div>
     </div>
     <div class="row" style="display: flex; flex-wrap: wrap;">
@@ -100,13 +100,11 @@ folder: people
                 <div class="media" style="width: 100%;">
                     <div class="pull-left">
                         <span class="fa-stack fa-2x">
-                            <a class="post-link" href="{{ bio.link }}">
-                                <img src="/images/people/{{ bio.image }}" alt="{{ bio.title }}" class="img-responsive" style="object-fit: cover; width: 64px; height: 64px; border-radius: 25%"/>
-                            </a>
+                            <img src="/images/people/{{ bio.image }}" alt="{{ bio.title }}" class="img-responsive" style="object-fit: cover; width: 64px; height: 64px; border-radius: 25%"/>
                         </span>
                     </div>
                     <div class="media-body note-text">
-                        <div class="media-heading"><a href="{{ bio.link }}">{{ bio.title }}</a></div>
+                        <div class="media-heading">{{ bio.title }}</div>
                         {% if bio.biography %}<p>{{ bio.biography }}</p>{% endif %}
                     </div>
                 </div>

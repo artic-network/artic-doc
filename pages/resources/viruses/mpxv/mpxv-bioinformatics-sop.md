@@ -19,7 +19,7 @@ order: 2
 
 {% include callout.html
 type='default'
-content='**Overview:** A complete bioinformatics protocol to take the output from the [sequencing protocol](artic-mpxv-guide.html) to consensus genome sequences. Includes basecalling, de-multiplexing, mapping, polishing and consensus generation.
+content='**Overview:** A complete bioinformatics protocol to take the output from the [sequencing protocol](/viruses/mpxv/artic-mpxv-guide.html) to consensus genome sequences. Includes basecalling, de-multiplexing, mapping, polishing and consensus generation.
 '
 %}
 

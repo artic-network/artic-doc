@@ -15,11 +15,11 @@ tags: [resources, viruses]
 
 >A collection of resources for whole genome sequencing and analysis of SARS-CoV-2
 
-## Resoures and documents
+## Resources and documents
 
 
 
-> 24-Mar-2020: We have posted [an update](/resources/ncov/ncov-amplicon-v3.pdf) to the amplicon set (V3)
+> 24-Mar-2020: We have posted [an update](https://community.artic.network/t/ncov-2019-version-3-amplicon-release/19) to the amplicon set (V3)
 
 
 ## Introduction

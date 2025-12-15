@@ -1,14 +1,14 @@
 ---
-title: "amplicon-nf: Running the pipeline in EPI2ME"
-keywords: Nanopore | Illumina | Bioinformatics | Pipeline
+title: "amplicon-nf: Running the pipeline in EPI2ME for Oxford Nanopore Data"
+keywords: Nanopore | Bioinformatics | Pipeline
 layout: document
 tags:
   - protocol
-permalink: /amplicon-nf/amplicon-nf-epi2me-sop.html
-title_text: "<strong>amplicon-nf</strong>: Running the pipeline in EPI2ME"
+permalink: /amplicon-nf/amplicon-nf-epi2me-sop-ont.html
+title_text: "<strong>amplicon-nf</strong>: Running the pipeline in EPI2ME for Oxford Nanopore Data"
 subtitle_text: Using EPI2ME for running the ARTIC amplicon-nf pipeline without the commandline
 icon: /images/amplicon-nf-logo.svg
-document_name: ARTIC-amplicon_nf-epi2me-SOP
+document_name: ARTIC-amplicon_nf-epi2me-SOP_ONT
 version: v1.0.0
 creation_date: 2025-08-21
 forked_from: null
@@ -53,7 +53,7 @@ Your custom scheme files **must** be named like this:
 
 In which case you would provide the `custom_scheme_path` of `/some/directory/custom_scheme` and a `custom_scheme_name` which reflects your custom scheme in the samplesheet.
 
-## 2) Oxford Nanopore (ONT) specific set up
+## 2) Samplesheet Setup
 
 You will need to provide information to amplicon-nf about where the read data is located and what the barcodes included in your sequencing run are. 
 
@@ -111,55 +111,6 @@ sample3,nanopore,artic-measles/400/v1.0.0,/some/directory/fastq_pass/barcode03
 ```
 
 > *An [example explicit Nanopore samplesheet google sheet](https://docs.google.com/spreadsheets/d/1CwnyigmHxyPNRAp2wruPnADfElVasaw35yrWy4fFxVQ/edit?usp=sharing) which is available here for your reference.*
->
-> *You may wish to copy this and use it as a basis for your own samplesheets, to download a samplesheet CSV which is compatible with the pipeline; press **"File"**, **"Download"**, then **"Comma Separated Values (.csv)"**.*
-
-## 3) Illumina specific set up
-
-If you are running Illumina sequenced samples through the pipeline then you only need to fill in a subset of the samplesheet. The setup instructions assume the Illumina data directory looks like this:
-
-```
-/some/directory/run_fastq_directory
-   ├── sample-1_S1_R1_001.fastq.gz
-   │── sample-1_S1_R2_001.fastq.gz
-   ├── sample-2_S2_R1_001.fastq.gz
-   └── sample-2_S2_R2_001.fastq.gz
-```
-
-As with ONT data, there are two ways to setup samplesheets for Illumina datasets; 
-
-**a)** With implicit (fuzzy) matching of FASTQ file pairs based on the provided `sample` column, this option will match up file pairs within the directory provided with the `--read_directory` parameter so you will not have to provide filepaths within the samplesheet.
-
-**b)** With explicit FASTQ directories within the samplesheet in the `fastq_1` and `fastq_2` columns. This approach may reduce the risk of mismatching metadata and read data, however you will need to be able to identify the absolute path to the read directory. 
-
-### a: Implicit (fuzzy) matched paired FASTQ Input
-
-If you wish to utilise fuzzy directory matching then a valid samplesheet could look like this (remember, the `run_fastq_directory` path **MUST** be provided with the `read_directory` parameter for this samplesheet to be valid).
-
-```
-sample,platform,scheme_name
-sample-1,illumina,artic-measles/400/v1.0.0
-sample-2,illumina,artic-measles/400/v1.0.0
-```
-
-> *We have generated an [example implicit matched Illumina samplesheet](https://docs.google.com/spreadsheets/d/1WcCGpntX9HNhCgKcqgCKow9OioImCUR3vX90w0Qu6Ps/edit?usp=sharing) which is available here for your reference.*
->
-> *You may wish to copy this and use it as a basis for your own samplesheets, to download a samplesheet CSV which is compatible with the pipeline; press **"File"**, **"Download"**, then **"Comma Separated Values (.csv)"**.*
-
-More information on samplesheet generation is included in the [amplicon-nf repository](https://github.com/artic-network/amplicon-nf/blob/main/docs/usage.md) including information about how to utilise custom schemes and more, the information in that document is primarily for command line users but the descriptions of how to properly format your samplesheet CSV is applicable here too.
-
-
-### b: Explicit paired FASTQ input
-
-For explicit FASTQ pairs, a valid samplesheet for the above directory would look like this:
-
-```
-sample,platform,scheme_name,fastq_1,fastq_2
-sample-1,illumina,artic-measles/400/v1.0.0,/some/directory/run_fastq_directory/sample-1_S1_R1_001.fastq.gz,/some/directory/run_fastq_directory/sample-1_S1_R2_001.fastq.gz
-sample-2,illumina,artic-measles/400/v1.0.0,/some/directory/run_fastq_directory/sample-2_S2_R1_001.fastq.gz,/some/directory/run_fastq_directory/sample-2_S2_R2_001.fastq.gz
-```
-
-> *We have generated an [example explicit Illumina samplesheet google sheet](https://docs.google.com/spreadsheets/d/1n9e5Pixf048sv-5MOKEcyVms9J97PyKa6ngMAaVU-0U/edit?usp=sharing) which is available here for your reference.*
 >
 > *You may wish to copy this and use it as a basis for your own samplesheets, to download a samplesheet CSV which is compatible with the pipeline; press **"File"**, **"Download"**, then **"Comma Separated Values (.csv)"**.*
 
