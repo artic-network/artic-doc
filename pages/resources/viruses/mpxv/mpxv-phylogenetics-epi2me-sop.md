@@ -14,7 +14,6 @@ last_updated: 2024-08-16
 author: Áine O'Toole
 citation: https://github.com/aineniamh/squirrel
 image: /images/mpxv/phylogenetics-sop/squirrel_logo.svg
-permalink: /viruses/mev
 icon: /images/mpxv/phylogenetics-sop/squirrel_logo.svg
 folder: mpxv
 category: epi2me
