@@ -37,7 +37,7 @@ Steps:
 
 ## Curating sequences and annotating with metadata
 
-Here we will assume the sequence data available are a set of genomes each isolated from a sample collected from an infected host. These are consensus genomes contructed from sequencing read,
+Here we will assume the sequence data available are a set of genomes each isolated from a sample collected from an infected host. These are consensus genomes constructed from sequencing read,
 
 ### Naming sequences
 
