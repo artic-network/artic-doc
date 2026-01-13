@@ -5,16 +5,16 @@ layout: document
 tags:
   - protocol
 permalink: /amplicon-nf/amplicon-nf-epi2me-outputs-guide.html
-folder: amplicon-nf
 title_text: "<strong>amplicon-nf</strong>: Viewing outputs of the pipeline in EPI2ME"
 subtitle_text: Viewing outputs of the amplicon-nf pipeline in EPI2ME
-icon: /images/protocols/amplicon.svg
+icon: /images/amplicon-nf-logo.svg
 document_name: ARTIC-amplicon_nf-outputs-guide
 version: v1.0.0
 creation_date: 2025-08-27
 forked_from: null
 author: Sam Wilkinson
-category: guide
+folder: amplicon-nf | mev
+category: epi2me
 ---
 
 {% include callout.html

@@ -1,20 +1,20 @@
 ---
-title: "amplicon-nf: Running the pipeline in EPI2ME"
-keywords: Nanopore | Illumina | Bioinformatics | Pipeline
+title: "amplicon-nf: Running the pipeline in EPI2ME for Oxford Nanopore Data"
+keywords: Nanopore | Bioinformatics | Pipeline
 layout: document
 tags:
   - protocol
-permalink: /amplicon-nf/amplicon-nf-epi2me-sop.html
-folder: amplicon-nf
-title_text: "<strong>amplicon-nf</strong>: Running the pipeline in EPI2ME"
+permalink: /amplicon-nf/amplicon-nf-epi2me-sop-ont.html
+title_text: "<strong>amplicon-nf</strong>: Running the pipeline in EPI2ME for Oxford Nanopore Data"
 subtitle_text: Using EPI2ME for running the ARTIC amplicon-nf pipeline without the commandline
-icon: /images/protocols/amplicon.svg
-document_name: ARTIC-amplicon_nf-epi2me-SOP
+icon: /images/amplicon-nf-logo.svg
+document_name: ARTIC-amplicon_nf-epi2me-SOP_ONT
 version: v1.0.0
 creation_date: 2025-08-21
 forked_from: null
 author: Sam Wilkinson
-category: guide
+folder: amplicon-nf | mev | mpxv
+category: epi2me
 ---
 
 {% include callout.html
@@ -30,12 +30,30 @@ Before you we begin you will need to create a samplesheet in CSV (comma separate
 If you already have a valid samplesheet prepared, you may skip to the next section!
 
 
-## 1) Scheme name
-Whichever platform was used to generate the data, you will need the amplicon `scheme_name`. The example in the guide below uses the `artic-measles/400/v1.0.0` scheme, however this will change depending on the primer scheme that was used used to generate the data. If you are unsure, check the name on [primalscheme labs](https://labs.primalscheme.com/) and ensure it follows the pattern `<SCHEME>/<SCHEME_LENGTH>/<VERSION>`.
+## 1) Primer Scheme
+Whichever platform was used to generate the data, you will need to tell the pipeline which primer scheme you used to generate your data, there are two ways to do this depending on whether you used an official primer scheme (it is stored in [primalscheme labs](https://labs.primalscheme.com/)) or a custom primer scheme.
 
+### a: ARTIC Primer schemes
 
+ARTIC primer schemes should be provided with the `scheme_name` field in the samplesheet. The example in the guide below uses the `artic-measles/400/v1.0.0` scheme, however this will change depending on the primer scheme that was used used to generate the data. If you are unsure, check the name on [primalscheme labs](https://labs.primalscheme.com/) and ensure it follows the pattern `<SCHEME>/<SCHEME_LENGTH>/<VERSION>`.
 
-## 2) Oxford Nanopore (ONT) specific set up
+The pipeline will automatically find the scheme and download it for you if you do this.
+
+### b: Custom Primer Schemes
+
+If you have used a primer scheme which is not on the ARTIC primerschemes repository, you will have to provide two different fields in the samplesheet, `custom_scheme_path` and `custom_scheme_name`.
+
+Your custom scheme files **must** be named like this:
+
+```
+/some/directory/custom_scheme
+   ├── primer.bed
+   └── reference.fasta
+```
+
+In which case you would provide the `custom_scheme_path` of `/some/directory/custom_scheme` and a `custom_scheme_name` which reflects your custom scheme in the samplesheet.
+
+## 2) Samplesheet Setup
 
 You will need to provide information to amplicon-nf about where the read data is located and what the barcodes included in your sequencing run are. 
 
@@ -57,9 +75,10 @@ If you are running ONT sequenced samples through the pipeline, the fastq_pass di
 ```
 
 There are two ways to provide the location of the sequencing read data for ONT data:
-a) With implicit (fuzzy) matching of FASTQ directories based on the provided `barcode` column, this option will match up subdirectories of the directory provided with the `--read_directory` parameter so you will not have to provide filepaths within the samplesheet.
 
-b) With explicit FASTQ directories within the samplesheet in the `fastq_directory` column. This approach may reduce the risk of mismatching metadata and read data, however you will need to be able to identify the absolute path to the read directory. 
+**a)** With implicit (fuzzy) matching of FASTQ directories based on the provided `barcode` column, this option will match up subdirectories of the directory provided with the `--read_directory` parameter so you will not have to provide filepaths within the samplesheet.
+
+**b)** With explicit FASTQ directories within the samplesheet in the `fastq_directory` column. This approach may reduce the risk of mismatching metadata and read data, however you will need to be able to identify the absolute path to the read directory. 
 
 
 ### a: Implicit (fuzzy) FASTQ Directory Input
@@ -68,9 +87,9 @@ If you wish to utilise fuzzy directory matching then a valid samplesheet could l
 
 ```
 sample,platform,scheme_name,barcode
-barcode01,nanopore,artic-measles/400/v1.0.0,barcode01
-barcode02,nanopore,artic-measles/400/v1.0.0,barcode02
-barcode03,nanopore,artic-measles/400/v1.0.0,barcode03
+sample1,nanopore,artic-measles/400/v1.0.0,barcode01
+sample2,nanopore,artic-measles/400/v1.0.0,barcode02
+sample3,nanopore,artic-measles/400/v1.0.0,barcode03
 ```
 
 >Please make sure that you provide a barcode which matches the directory exactly, for example, `01` would be invalid since the actual directory is `barcode01`, if the `barcode` column does not match the directory **EXACTLY** then the pipeline will not be able to match the FASTQ files with the metadata.
@@ -92,57 +111,6 @@ sample3,nanopore,artic-measles/400/v1.0.0,/some/directory/fastq_pass/barcode03
 ```
 
 > *An [example explicit Nanopore samplesheet google sheet](https://docs.google.com/spreadsheets/d/1CwnyigmHxyPNRAp2wruPnADfElVasaw35yrWy4fFxVQ/edit?usp=sharing) which is available here for your reference.*
->
-> *You may wish to copy this and use it as a basis for your own samplesheets, to download a samplesheet CSV which is compatible with the pipeline; press **"File"**, **"Download"**, then **"Comma Separated Values (.csv)"**.*
-
-## 3) Illumina specific set up
-
-If you are running Illumina sequenced samples through the pipeline then you only need to fill in a subset of the samplesheet. The setup instructions assume the Illumina data directory looks like this:
-
-```
-/some/directory/run_fastq_directory
-   ├── sample-1_S1_R1_001.fastq.gz
-   │── sample-1_S1_R2_001.fastq.gz
-   ├── sample-2_S2_R1_001.fastq.gz
-   └── sample-2_S2_R2_001.fastq.gz
-```
-
-As with ONT data, there are two ways to setup samplesheets for Illumina datasets; 
-
-a) With implicit (fuzzy) matching of FASTQ file pairs based on the provided `sample` column, this option will match up file pairs within the directory provided with the `--read_directory` parameter so you will not have to provide filepaths within the samplesheet.
-
-b) With explicit FASTQ directories within the samplesheet in the `fastq_1` and `fastq_2` columns. This approach may reduce the risk of mismatching metadata and read data, however you will need to be able to identify the absolute path to the read directory. 
-
-### a: Implicit (fuzzy) matched paired FASTQ Input
-
-> *If you have data from an Illumina sequencing run with separate lanes (you can tell if your FASTQ file names contain lane tags which look like `_L001` or `_L002` in them) then this **will not work** due to how Illumina sequencers name FASTQ files from different lanes, in this case you should either concatenate the paired FASTQs from each lane or use the explicit set up (b) above (recommended).*
-
-If you wish to utilise fuzzy directory matching then a valid samplesheet could look like this (remember, the `run_fastq_directory` path **MUST** be provided with the `read_directory` parameter for this samplesheet to be valid).
-
-```
-sample,platform,scheme_name
-sample-1,illumina,artic-measles/400/v1.0.0
-sample-2,illumina,artic-measles/400/v1.0.0
-```
-
-> *We have generated an [example implicit matched Illumina samplesheet](https://docs.google.com/spreadsheets/d/1WcCGpntX9HNhCgKcqgCKow9OioImCUR3vX90w0Qu6Ps/edit?usp=sharing) which is available here for your reference.*
->
-> *You may wish to copy this and use it as a basis for your own samplesheets, to download a samplesheet CSV which is compatible with the pipeline; press **"File"**, **"Download"**, then **"Comma Separated Values (.csv)"**.*
-
-More information on samplesheet generation is included in the [amplicon-nf repository](https://github.com/artic-network/amplicon-nf/blob/main/docs/usage.md) including information about how to utilise custom schemes and more, the information in that document is primarily for command line users but the descriptions of how to properly format your samplesheet CSV is applicable here too.
-
-
-### b: Explicit paired FASTQ input
-
-For explicit FASTQ pairs, a valid samplesheet for the above directory would look like this:
-
-```
-sample,platform,scheme_name,fastq_1,fastq_2
-sample-1,illumina,artic-measles/400/v1.0.0,/some/directory/run_fastq_directory/sample-1_S1_R1_001.fastq.gz,/some/directory/run_fastq_directory/sample-1_S1_R2_001.fastq.gz
-sample-2,illumina,artic-measles/400/v1.0.0,/some/directory/run_fastq_directory/sample-2_S2_R1_001.fastq.gz,/some/directory/run_fastq_directory/sample-2_S2_R2_001.fastq.gz
-```
-
-> *We have generated an [example explicit Illumina samplesheet google sheet](https://docs.google.com/spreadsheets/d/1n9e5Pixf048sv-5MOKEcyVms9J97PyKa6ngMAaVU-0U/edit?usp=sharing) which is available here for your reference.*
 >
 > *You may wish to copy this and use it as a basis for your own samplesheets, to download a samplesheet CSV which is compatible with the pipeline; press **"File"**, **"Download"**, then **"Comma Separated Values (.csv)"**.*
 
@@ -220,6 +188,6 @@ When the workflow has finished the "Running" icon at the top of the window will 
 
 <img width="1000" src="/images/amplicon-nf/epi2me_amp-nf_completed.png">
 
-Hopefully you will encounter no issues while running the pipeline, in which case, you might wish to read our [epi2me amplicon-nf outputs guide](/resources/amplicon-nf/amplicon-nf-epi2me-outputs-guide.html) which will walk you through the different output files, their formats, and how to access them from the epi2me client.
+Hopefully you will encounter no issues while running the pipeline, in which case, you might wish to read our [epi2me amplicon-nf outputs guide](/amplicon-nf/amplicon-nf-epi2me-outputs-guide.html) which will walk you through the different output files, their formats, and how to access them from the epi2me client.
 
 However, if you do encounter any issues we have a dedicated document which details problems you may encounter and their possible solutions [on the amplicon-nf repository](https://github.com/artic-network/amplicon-nf/blob/main/docs/problems.md). Please check here when you encounter problems but if your problem is not described there or the solutions do not help please consider [creating a github issue](https://github.com/artic-network/amplicon-nf/issues/new/choose) so we can discuss it with you directly!

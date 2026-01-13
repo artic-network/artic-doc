@@ -12,56 +12,69 @@ category: virus
 virus: mev
 keywords: resources
 tags: [resources, viruses]
+toc: false
 ---
      
 ## Resources and documents
 
-{% assign docs = site.html_pages | where_exp:"item", "item.folder contains page.virus" | where_exp:"item", "item.category contains 'guide'" | sort: 'order' %}
-{% if docs and docs.size != 0 %}
 
 ### Background
-<ul>
-{% for doc in docs %}
-    <li>{{ doc.title_text }}</li>
-	<blockquote>
-        {{ doc.subtitle_text }} <br />
-        link: <a href="{{ doc.permalink }}">{{ doc.permalink }}</a>
-    </blockquote>
+{% assign docs = site.html_pages | where_exp:"item", "item.folder contains page.virus" | where_exp:"item", "item.category contains 'background'" | sort: 'order' %}
+{% if docs and docs.size != 0 %}
+
+{% for page in docs %}
+<div class="row">
+        {% include subsection.html icon=page.icon title=page.title_text url=page.url summary=page.subtitle_text %}
+</div>
 {% endfor %}
-</ul>
 {% endif %}
+
+### Primer scheme
+
+<div class="row">
+        {% include subsection.html icon="/images/software/primal-scheme.png" title="artic-measles/400/v1.0.0 Primer Scheme" url="https://labs.primalscheme.com/detail/artic-measles/400/v1.0.0" summary="The ARTIC-network primer scheme for sequencing MEV" %}
+</div>
+
+### Wet-lab Protocol
+
+<div class="row">
+        {% include subsection.html icon="/images/software/protocols-io.png" title="ARTIC-network MEV wet-lab protocol" url="https://www.protocols.io/view/artic-measles-400-v1-0-0-protocol-5qpvody39g4o/v1" summary="The ARTIC-network wet-lab protocol for sequencing MEV using the artic-measles/400/v1.0.0 primer scheme" %}
+</div>
 
 {% assign docs = site.html_pages | where_exp:"item", "item.folder contains page.virus" | where_exp:"item", "item.category contains 'setup'" | sort: 'order' %}
 {% if docs and docs.size != 0 %}
-### Setup guides
-<ul>
-{% for doc in docs %}
-    <li>{{ doc.title_text }}</li>
-	<blockquote>link: <a href="{{ doc.permalink }}">{{ doc.permalink }}</a></blockquote>
+<!-- ### Setup guides
+{% for page in docs %}
+<div class="row">
+        {% include subsection.html icon=page.icon title=page.title_text url=page.url summary=page.subtitle_text %}
+</div>
 {% endfor %}
-</ul>
 {% endif %}
+-->
 
 {% assign docs = site.html_pages | where_exp:"item", "item.folder contains page.virus" | where_exp:"item", "item.category contains 'epi2me'"| sort: 'order' %}
 {% if docs and docs.size != 0 %}
 ### User-interface pipelines using Epi2me
-<ul>
-{% for doc in docs %}
-    <li>{{ doc.title_text }}</li>
-	<blockquote>link: <a href="{{ doc.permalink }}">{{ doc.permalink }}</a></blockquote>
+<!-- Hardcode the epi2me setup guide, it's more in-depth than anything we would write and they'll keep it updated -->
+<div class="row">
+        {% include subsection.html icon="/images/software/epi2me-icon.png" title="EPI2ME Installation" url="https://epi2me.nanoporetech.com/epi2me-docs/installation/" summary="A guide to help you install and set up EPI2ME from the EPI2ME team" %}
+</div>
+
+{% for page in docs %}
+<div class="row">
+        {% include subsection.html icon=page.icon title=page.title_text url=page.url summary=page.subtitle_text %}
+</div>
 {% endfor %}
-</ul>
 {% endif %}
 
 {% assign docs = site.html_pages | where_exp:"item", "item.folder contains page.virus" | where_exp:"item", "item.category contains 'cli'" | sort: 'order' %}
 {% if docs and docs.size != 0 %}
 ### Command line interface pipeline SOPs
-<ul>
-{% for doc in docs %}
-    <li>{{ doc.title_text }}</li>
-	<blockquote>link: <a href="{{ doc.permalink }}">{{ doc.permalink }}</a></blockquote>
+{% for page in docs %}
+<div class="row">
+        {% include subsection.html icon=page.icon title=page.title_text url=page.url summary=page.subtitle_text %}
+</div>
 {% endfor %}
-</ul>
 {% endif %}
 
 {% include links.html %}

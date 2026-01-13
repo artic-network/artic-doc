@@ -9,6 +9,7 @@ title_text: "Mpox virus sequencing"
 subtitle_text: "A guide to sequencing for genomic epidemiology"
 document_name: "ARTIC-MPXV-guide"
 version: v1.0.0
+icon: /images/viruses/mpxv_icon.svg
 creation_date: 2024-08-20
 last_updated: 2024-08-23
 author: ARTIC team
@@ -48,12 +49,12 @@ We emphasise that the process of generating sequence data for genomic epidemiolo
 
 Amplicon schemes can be designed against single reference genomes, in which case they are clade-specific, or against a broader range of references to permit them to be clade-independent. We found that most publicly available MPXV primer schemes are designed against clade II references.
 
-| Scheme | Clade reference | Size (bases) | Link |
-| :---- | :---- | :---- | :---- |
-| Yale – Chen *et al.* | IIb | 2000 | [Primal Scheme Labs](https://labs.primalscheme.com/detail/grubaugh-mpox/2000/v1.0.0/?q=Mpox), [Manuscript](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002151), [Primer Request Link](https://go.idtdna.com/Yale-Mpox-Amplicon-Panel-Request-Consult.html) |
-| INRB | IIb | 2000 | [Link](https://github.com/inrb-labgenpath/DRC\_MPXV\_primers) (NB: identical Primal Scheme to Yale) |
-| Welkers *et al.* | IIb | 2500 | [Link](https://www.protocols.io/view/monkeypox-virus-whole-genome-sequencing-using-comb-n2bvj6155lk5/v1?step=1), [Primer Scheme Repository](https://github.com/pha4ge/primer-schemes/tree/main/schemes/mpxv/erasmus/2500/v1.0.0) |
-| ARTIC/BCCDC | IIb | 3000 | [Link](https://github.com/quick-lab/MPXV) |
+| Scheme               | Clade reference | Size (bases) | Link                                                                                                                                                                                                                                                                                  |
+| :------------------- | :-------------- | :----------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Yale – Chen *et al.* | IIb             | 2000         | [Primal Scheme Labs](https://labs.primalscheme.com/detail/grubaugh-mpox/2000/v1.0.0/?q=Mpox), [Manuscript](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002151), [Primer Request Link](https://go.idtdna.com/Yale-Mpox-Amplicon-Panel-Request-Consult.html) |
+| INRB                 | IIb             | 2000         | [Link](https://github.com/inrb-labgenpath/DRC\_MPXV\_primers) (NB: identical Primal Scheme to Yale)                                                                                                                                                                                   |
+| Welkers *et al.*     | IIb             | 2500         | [Link](https://www.protocols.io/view/monkeypox-virus-whole-genome-sequencing-using-comb-n2bvj6155lk5/v1?step=1), [Primer Scheme Repository](https://github.com/pha4ge/primer-schemes/tree/main/schemes/mpxv/erasmus/2500/v1.0.0)                                                      |
+| ARTIC/BCCDC          | IIb             | 3000         | [Link](https://github.com/quick-lab/MPXV)                                                                                                                                                                                                                                             |
 
 **Table 1** | Publicly available MPXV primer schemes.
 

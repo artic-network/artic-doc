@@ -4,17 +4,17 @@ keywords: protocol
 layout: document
 tags: [protocol]
 summary: null
-permalink: /viruses/mev/mev-epi2me-setup.html
-folder: mev
-title_text: Running the ARTIC MEV analysis pipelines using EPI2ME
+permalink: /pipelines/epi2me-setup.html
+title_text: Running the ARTIC analysis pipelines using EPI2ME
 subtitle_text: ARTIC pipelines | bioinformatics
-document_name: ARTIC-MEV-EPI2ME-Setup
+document_name: ARTIC-EPI2ME-Setup
 version: v1.0.0
 creation_date:
-last_updated: 
+last_updated: 2025-08-28 
 author: Elli Mylona
 citation: null
-category: setup
+folder: hidden
+category: epi2me
 order: 3
 ---
 

@@ -4,7 +4,7 @@ layout: document
 keywords: protocol
 tags: [protocol]
 permalink: /fieldbioinformatics/fieldbioinformatics-sop.html
-title_text: "Fieldbioinformatics: viral amplicon sequencing bioinformatics SOP"
+title_text: "<strong>Fieldbioinformatics</strong>: viral amplicon sequencing bioinformatics SOP"
 subtitle_text: "Nanopore | bioinformatics"
 document_name: "fieldbioinformatics-SOP"
 version: v1.0.0
@@ -12,7 +12,7 @@ creation_date: 2024-08-20
 last_updated: 2025-08-27
 author: Sam Wilkinson
 citation: "Loman *et al.* In Prep."
-folder: fieldbioinformatics
+folder: fieldbioinformatics | cli | mev | mpxv
 icon: /images/software/field-bioinformatics-icon.png
 category: cli
 order: 2
@@ -20,7 +20,7 @@ order: 2
 
 {% include callout.html
 type='default'
-content='**Overview:** A complete bioinformatics protocol to take the output from the [sequencing protocol](artic-mpxv-guide.html) to consensus genome sequences. Includes mapping, polishing and consensus generation.
+content='**Overview:** A complete bioinformatics protocol to take the output from the [sequencing protocol](/viruses/mpxv/artic-mpxv-guide.html) to consensus genome sequences. Includes mapping, polishing and consensus generation.
 '
 %}
 
@@ -68,14 +68,6 @@ mkdir run_name
 cd run_name
 ```
 
-## Activate the ARTIC environment:
-
-All steps in this tutorial should be performed in the ```artic``` conda environment (if you have previously activated the environment in the previous steps you will not need to do so again):
-
-```bash
-conda activate artic
-```
-
 ## Read filtering
 
 Because ARTIC protocol can generate chimeric reads, we perform length filtering.
@@ -121,7 +113,7 @@ For each barcode you wish to process (e.g. run this command 12 times for 12 barc
 
 E.g. for barcode03
 ```bash
-artic minion --normalise 200 --threads 4 --scheme-directory ~/primer_schemes --scheme-name artic-measles --scheme-length 400 --scheme-version v1.0.0 --read-file run_name_barcode03.fastq samplename
+artic minion --normalise 200 --threads 4 --scheme-directory ~/primer_schemes --scheme-name artic-inrb-mpox --scheme-length 2500 --scheme-version v1.0.0 --read-file run_name_barcode03.fastq samplename
 ```
 
 ## Custom primer schemes
