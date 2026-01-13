@@ -4,7 +4,7 @@ keywords: resources
 last_updated: 2026-01-12
 tags: [resources, protocols]
 title_text: "MeV Phylogenetics"
-category: guide
+category: phylo_guide
 subtitle_text: "Resources and protocols for MeV alignment and phylogenetics"
 summary: "Resources and protocols for MeV alignment and phylogenetics"
 sidebar: artic_sidebar
@@ -12,7 +12,7 @@ version: v1.0.0
 permalink: /viruses/mev/mev-phylogenetics
 icon: /images/tutorials/phylogram_1.png
 author: Aine O'Toole
-folder: protocols
+folder: mev
 ---
 
 This document is part of the MEV sequencing protocol package:

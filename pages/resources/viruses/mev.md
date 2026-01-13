@@ -80,7 +80,7 @@ toc: false
 
 
 ### Phylogenetics and Interpretation
-{% assign docs = site.html_pages | where_exp:"item", "item.folder contains page.virus" | where_exp:"item", "item.title contains 'Phylogenetics'" | sort: 'order' %}
+{% assign docs = site.html_pages | where_exp:"item", "item.folder contains page.virus" | where_exp:"item", "item.category contains 'phylo_guide'" | sort: 'order' %}
 {% if docs and docs.size != 0 %}
 
 {% for page in docs %}
