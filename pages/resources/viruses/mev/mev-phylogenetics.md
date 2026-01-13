@@ -22,7 +22,7 @@ This document is part of the MEV sequencing protocol package:
 ## Alignment and Phylogenetics
 
 ### 1. Introduction and background
-This resource provides guidance for public health laboratories and researchers performing downstream analysis of measles virus (MeV) genome sequences. It is intended to support routine genomic epidemiology workflows and outbreak investigations. For broader context and applied use cases, please see our companion resource on [MeV genomic epidemiology](artic.network/mev/mev-background/). 
+This resource provides guidance for public health laboratories and researchers performing downstream analysis of measles virus (MeV) genome sequences. It is intended to support routine genomic epidemiology workflows and outbreak investigations. For broader context and applied use cases, please see our companion resource on [MeV genomic epidemiology](https://artic.network/viruses/mev/mev-background.html). 
 
 Numerous high-quality resources exist for analysing virus genomes that can apply to measles virus; rather than duplicating already existing documentation, this guide highlights commonly used approaches, points to relevant external documentation and outlines a typical analytical workflow.
 
@@ -46,7 +46,7 @@ A central objective in genomic epidemiology is determining how newly generated s
 
 It is important to recognise that global sequence availability is uneven and influenced by differences in surveillance capacity, sequencing infrastructure, and data-sharing practices. Interpretation of genomic data should take this into account. Phylogenetic proximity should not be interpreted as definitive evidence of geographic origin. Nearest neighbours in a tree may reflect sampling and reporting biases rather than true transmission pathways. 
 
-With that in mind, it is important to contextualise your new data, both with data generated locally and also around the world. For measles virus, [Pathoplexus](pathoplexus.org) can be used to access contextual genomic data. It has a [dedicated measles database](https://pathoplexus.org/measles/) linked to INSDC records, but also contains data that may not yet be released to INSDC. [NCBI-Virus](https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/) can also be used to accessed solely open-source MeV records from INSDC.
+With that in mind, it is important to contextualise your new data, both with data generated locally and also around the world. For measles virus, [Pathoplexus](https://pathoplexus.org/) can be used to access contextual genomic data. It has a [dedicated measles database](https://pathoplexus.org/measles/) linked to INSDC records, but also contains data that may not yet be released to INSDC. [NCBI-Virus](https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/) can also be used to accessed solely open-source MeV records from INSDC.
 
 Instructions for account creation, data access and submission procedures are available through the Pathoplexus [documentation](https://pathoplexus.org/docs/).
 
