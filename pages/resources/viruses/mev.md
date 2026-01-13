@@ -77,4 +77,17 @@ toc: false
 {% endfor %}
 {% endif %}
 
+
+
+### Phylogenetics and Interpretation
+{% assign docs = site.html_pages | where_exp:"item", "item.folder contains page.virus" | where_exp:"item", "item.title contains 'Phylogenetics'" | sort: 'order' %}
+{% if docs and docs.size != 0 %}
+
+{% for page in docs %}
+<div class="row">
+        {% include subsection.html icon=page.icon title=page.title_text url=page.url summary=page.subtitle_text %}
+</div>
+{% endfor %}
+{% endif %}
+
 {% include links.html %}
