@@ -86,7 +86,7 @@ When interpreting phylogenies, consider the following questions:
 
 <img width="500" alt="link" src="/images/mev/limitations.png">
 
-Results should be interpreted in the context of prior expectations.Unexpected findings should prompt additional interrogation of the data or analysis before drawing unusual conclusions. Particular caution is warrented when inferring importation or directionality of spread. 
+Results should be interpreted in the context of prior expectations. Unexpected findings should prompt additional interrogation of the data or analysis before drawing unusual conclusions. Particular caution is warranted when inferring importation or directionality of spread. 
 
 For MeV, uneven sampling across the globe mean that the genetic diversity available as background context is unlikely to fully capture the global diversity of the virus. In addition, MeV exhibits relatively low genetic diversity due to the genetic bottleneck following the introduction of vaccination, and much of the available genetic data is restricted to the N450 region. Consequently, apparent clustering by country or region may reflect differences in sequencing intensity and data availability rather than true epidemiological linkage. Where possible, phylogenetic inference should be used in conjunction with case investigation data, travel history or other relevant epidemiological information.
 
