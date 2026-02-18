@@ -1,4 +1,5 @@
 ---
+title: "Measles resources"
 published: true
 permalink: 2026-02-12-measles-announcement.html
 tags:
