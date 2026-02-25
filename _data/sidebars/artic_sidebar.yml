@@ -46,7 +46,7 @@ entries:
             output: web, pdf
 
           - title: Workshops
-            url: /workshops
+            url: /training/workshops
             output: web, pdf
 
           - title: Tutorials
