@@ -4,7 +4,7 @@ layout: document
 keywords: 
 tags: 
 permalink: /workshops/lhfv/workshop-overview.html
-title_text: "ARTIC sequencing: Practical training for genomics-enabled outbreak surveillance"
+title_text: "ARTIC practical training: For real, real-time, real-safe, full-stack, genomics-enabled outbreak surveillance and response training."
 subtitle_text: "Workshop Overview"
 icon: 
 document_name: "LFH-workshop-overview"
@@ -42,3 +42,6 @@ On completion of the course, participants can expect to be able to:
 - Monitor the sequencing run output 
 - Process raw sequencing data through bioinformatics pipelines, interpret the quality control outputs, and generate reports
 - Understand the components of a phylogenetic tree and interpret phylogenetic trees and epidemiological data
+
+## Package contents
+<img width="1000" src="/images/workshop-lhfv/package_contents.png">
