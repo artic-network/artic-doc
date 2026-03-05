@@ -7,7 +7,7 @@ permalink: /workshops/lhfv/workshop-overview.html
 title_text: "ARTIC practical training: For real, real-time, real-safe, full-stack, genomics-enabled outbreak surveillance and response training."
 subtitle_text: "Workshop Overview"
 icon: 
-document_name: "LFH-workshop-overview"
+document_name: "LHF-workshop-overview"
 version: v1.0.0
 creation_date: 2026-03-04
 last_updated: 2026-03-04
@@ -44,4 +44,4 @@ On completion of the course, participants can expect to be able to:
 - Understand the components of a phylogenetic tree and interpret phylogenetic trees and epidemiological data
 
 ## Package contents
-<img width="1000" src="/images/workshop-lhfv/package_contents.png">
+<img width="850" src="/images/workshop-lhfv/package_contents.png">
