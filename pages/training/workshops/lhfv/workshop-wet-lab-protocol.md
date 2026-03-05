@@ -33,8 +33,6 @@ Groups and samples:
 
 You have been given 11 DNA samples (+ 1 no template control (NTC))  to work with as a group. You can decide how to split the samples between the group members. Confirm that you have the correct samples as per the table above and fill in the information below:
 
-
-|---|------|
 | Group name/number: | __________________________________________________________________________________ |
 | Names: | __________________________________________________________________________________ |
 | Sample IDs: | __________________________________________________________________________________ |
