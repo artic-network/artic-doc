@@ -45,3 +45,21 @@ On completion of the course, participants can expect to be able to:
 
 ## Package contents
 <img width="850" src="/images/workshop-lhfv/package_contents.png">
+
+## Future development 
+### Target Training Profile (TTP)
+The training package is envisioned as a collaboration between ARTIC and local academic and/or public health institutes. In-scope for the development of the current version of this package are the features defined in Minimum Characteristics in the table below. Characteristics that will be included in future versions are listed under Optimal Characteristics.
+
+| Feature | Minimum Characteristics (v1) | Optimal Characteristics (v2+) |
+|---|----|---|
+| Curriculum Content | Core ARTIC protocol overview, overview of primer design, PCR, library prep and loading, sequencing, basic bioinformatics analysis, interpretation and epi inferences | Reagent substitution, various sample types (see nucleic acid template) allowing participants to simulate various starting points (RT, PCR, etc), phylodynamic analysis, range of scenarios (outbreaks, zoonoses, vector-borne, endemic pathogen surveillance and emerging AMR threats) with increased sample sizes |
+| Nucleic Acid Template | Synthetic nucleic acids, mimicking viral genome evolution, provided as DNA and used for training | Synthetic nucleic acids, mimicking viral genome evolution, provided as RNA or armoured RNA to be used for training. Option also to use as quality controls |
+| Training Format | In-person, ARTIC-network instructor-led workshop. Four to eight groups (typically 2–3 people each) processing 12 samples each | Synthetic nucleic acid templates available upon request (reagent bundle for e.g. 12 participants) allowing for self-paced, self-study setup with local trainers delivering the material independently; online support |
+| Target Audience | LMIC researchers and PHM staff with molecular biology skills and basic understanding of sequencing | Adaptable for various skill levels |
+| Language | English | Multilingual support (French, Portuguese, etc.) |
+| Resource Availability | ARTIC providing all material required (other than equipment), open access resources | ARTIC providing template nucleic acids, open access resources, and advertised on website |
+| Evaluation and Assessment | Participation tracking, simple pre- and post-course quizzes. Continuous improvement using post-course surveys | Certified content. Continuous improvement using post-course surveys and report sent to ARTIC network |
+| Documentation | Training manuals and protocols, prep guides, lecture slides, simulating material | Training manuals with relevant guides, document templates, FAQs, simulating material, option for online demos/videos/talks |
+| Scalability | Single-cohort training | Replication in local institutions, train-the-trainer modules available |
+| Cost | Costs fully covered by ARTIC network via grant funding from the Wellcome Trust | Simulating material provided by ARTIC, optional support for local deployment (LIAS) |
+
