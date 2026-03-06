@@ -24,7 +24,7 @@ A quick guide to make sure your laptop is set up so you can follow along easily 
 ## Pre-workshop check-in
 Please fill in the a short, anonymous check-in form to help you reflect on your starting point and help us gauge the level of understanding and tailor the sessions accordingly. This is a learning exercise, not an assessment!
 
-To access the form, please click on the link: [Pre-workshop-Qs]()
+To access the form, please click on the link: [Pre-workshop-Qs](https://docs.google.com/forms/d/e/1FAIpQLSd2bpsnFsvmVtQrSH_0C_SO3JlNNjzrxoG13HPy0AcH-sT2pg/viewform?usp=publish-editor)
 
 ## Suggested reading
 [Multiplex-PCR-method](https://www.nature.com/articles/nprot.2017.066) and [ARTIC-LoCost-protocol](https://www.protocols.io/view/artic-locost-amplicon-sequencing-protocol-sqk-nbd1-5jyl885p7l2w/v1?step=5)
