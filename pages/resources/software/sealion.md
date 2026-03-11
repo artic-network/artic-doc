@@ -3,7 +3,7 @@ title: Sealion
 title_text: "Sealion"
 subtitle_text: "Sequence Alignment Viewer."
 image: /images/software/sealion-icon.png
-summary: "."
+summary: "Sealion is a fast, interactive multiple sequence alignment viewer for genomic epidemiology, with genome annotation display, reference-based colouring, variable-site navigation, and amino acid translation."
 sidebar: artic_sidebar
 permalink: /software/sealion
 icon: /images/software/sealion-icon.png
