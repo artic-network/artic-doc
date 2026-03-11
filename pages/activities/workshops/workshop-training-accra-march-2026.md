@@ -5,9 +5,12 @@ sidebar: artic_sidebar
 toc: false
 permalink: /workshops/accra_march_2026
 folder: workshops
+icon: /images/workshops/workshop-training-accra-march-2026-flier.png
 status: open
 tags: [workshop]
 ---
+                               
+{% include image.html file="workshops/workshop-training-accra-march-2026-flier.png" %}
 
 ## ***Overview***
 
@@ -70,6 +73,4 @@ The participants will require a laptop computer for individual or shared use.
 
 ***Application***  
 Applications should be submitted at [https://redcap.link/bzxttagu](https://redcap.link/bzxttagu) by **10th January 2026**. All enquiries regarding this workshop should first be directed to Lady Baaba Donkoh, [lbdonkoh@ug.edu.gh](mailto:lbdonkoh@ug.edu.gh). For participants who require a visa to travel to Ghana, they can be issued an invitation letter by Lady Baaba Donkoh, [lbdonkoh@ug.edu.gh](mailto:lbdonkoh@ug.edu.gh), which can be used as a supporting document for your application. More information on immigration can be accessed via [https://gis.gov.gh/](https://gis.gov.gh/).
-
-
-[image1]: 
+ 

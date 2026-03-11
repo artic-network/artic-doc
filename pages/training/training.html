@@ -40,7 +40,7 @@ where_exp:"item", "item.category contains 'tutorial'" | sort: 'title' %}
         <h2 class="page-header">Links and Resources</h2>
     </div>
     {% for page in docs %}
-    {% include subsection.html icon=page.icon title=page.title_text subtitle=page.subtitle_text url=page.url  %}
+    {% include subsection.html icon=page.icon title=page.title_text subtitle=page.subtitle_text url=page.link  %}
     {% endfor %}
 </div>
 {% endif %}
