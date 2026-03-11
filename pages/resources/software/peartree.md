@@ -22,13 +22,21 @@ The easiest way to use PearTree is directly in your browser — no installation 
 
 **[https://artic-network.github.io/peartree](https://artic-network.github.io/peartree)**
 
-Drag and drop a NEXUS or Newick tree file onto the canvas, or use the **Open…** button. You can also load example data or point the app at a tree file URL.
+Drag and drop a NEXUS or Newick tree file onto the canvas, or use the **Open…** button. You can also load example data or point the app at a tree file URL. 
 
 ### Desktop app
 
-A native desktop application is available for macOS, Windows, and Linux. It offers the same features as the web app with native file-system access, so NEXUS and Newick files can be opened directly from your file manager.
+A native desktop application is available for macOS, Windows, and Linux, built with [Tauri](https://tauri.app/). It offers the same features as the web app with native file system access and the ability to open FASTA files directly from your file manager.
 
-Pre-built installers for the latest release can be downloaded from the **[GitHub Releases page](https://github.com/artic-network/peartree/releases)**.
+Pre-built installers for the latest release can be downloaded from the **[GitHub Releases page](https://github.com/artic-network/peartree/releases)**:
+
+| Platform | Installer |
+|----------|-----------|
+| macOS — Apple Silicon (M1/M2/M3/M4) | `PearTree_x.x.x_aarch64.dmg` |
+| macOS — Intel (x86-64) | `PearTree_x.x.x_x64.dmg` |
+| Windows | `PearTree_x.x.x_x64-setup.exe` |
+| Linux (Debian/Ubuntu) | `peartree_x.x.x_amd64.deb` |
+| Linux (AppImage) | `peartree_x.x.x_amd64.AppImage` |
 
 ## Key features
 

@@ -18,7 +18,17 @@ RAMPART was originally designed to work with amplicon-based primer schemes (e.g.
 
 ## Desktop app
 
-RAMPART is now available as a self-contained **Electron desktop application** for macOS and Windows. The app bundles the Node.js server, React frontend, and all dependencies, so no separate server setup is needed. Installers are available on the **[GitHub Releases page](https://github.com/artic-network/rampart-app/releases)**.
+RAMPART is now available as a self-contained **Electron desktop application** for macOS and Windows. The app bundles the Node.js server, React frontend, and all dependencies, so no separate server setup is needed.
+
+Pre-built installers for the latest release can be downloaded from the **[GitHub Releases page](https://github.com/artic-network/rampart-app/releases)**:
+
+| Platform | Installer |
+|----------|-----------|
+| macOS — Apple Silicon (M1/M2/M3/M4) | `RAMPART.1.3.x_aarch64.dmg` |
+| macOS — Intel (x86-64) | `RAMPART.1.3.x_x64.dmg` |
+| Windows | `RAMPART.1.3.x_x64-setup.exe` |
+| Linux (Debian/Ubuntu) | `artic-rampart_1.3.0_amd64.deb` |
+| Linux (AppImage) | `RAMPART-1.3.0.AppImage` |
 
 ## Documentation
 
