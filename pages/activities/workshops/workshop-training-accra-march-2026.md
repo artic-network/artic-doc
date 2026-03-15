@@ -16,7 +16,7 @@ tags: [workshop]
 
 The ARTIC methodology, which uses a tiled amplicon-based sequencing approach, has been instrumental in responding to outbreaks and epidemics like those of Ebola, Zika, and SARS-CoV-2. The technology is fast, portable, and robust, enabling real-time surveillance and epidemiological tracking of virus outbreaks.
 
-The training is a collaboration between WACCBIP and the ARTIC network and will offer hands-on experience spanning the full workflow, from sample preparation to data interpretation, simulating viral genome evolution using synthetic nucleic acid controls. These materials are biologically inert and safe for handling, and provide scenario-realistic training. The participants will work on sequencing genomes based on a simulated outbreak scenario.
+The training is a collaboration between WACCBIP and the ARTIC network and will offer hands-on experience spanning the full workflow, from sample preparation to data interpretation, simulating genomic epidemiology using synthetic nucleic acid controls. These materials are biologically inert and safe for handling, and provide scenario-realistic training. The participants will work on sequencing genomes based on a simulated outbreak scenario.
 
 ## ***Who is this course for?***
 

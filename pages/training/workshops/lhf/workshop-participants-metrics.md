@@ -3,7 +3,7 @@ title: "LHF Workshop preparation and feedback - for Participants"
 layout: document
 keywords: 
 tags: 
-permalink: /workshops/lhfv/workshop-metrics.html
+permalink: /workshops/lhf/workshop-metrics.html
 title_text: "ARTIC practical training: For real, real-time, real-safe, full-stack, genomics-enabled outbreak surveillance and response training."
 subtitle_text: "Workshop preparation and feedback"
 icon: 
@@ -15,7 +15,7 @@ forked_from:
 author: Elli Mylona
 folder: workshops
 category: 
-summary: "LHFV workshop participants pre and post Workshop tasks (evaluation and feedback)"
+summary: "LHF workshop participants pre and post Workshop tasks (evaluation and feedback)"
 ---
 
 ## Getting your laptop ready

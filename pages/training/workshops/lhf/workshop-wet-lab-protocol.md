@@ -3,7 +3,7 @@ title: "LHF Workshop wet lab protocol"
 layout: document
 keywords: 
 tags: 
-permalink: /workshops/lhfv/workshop-wet-lab-protocol.html
+permalink: /workshops/lhf/workshop-wet-lab-protocol.html
 title_text: "ARTIC practical training: For real, real-time, real-safe, full-stack, genomics-enabled outbreak surveillance and response training."
 subtitle_text: "Wet lab protocol"
 icon: 
@@ -15,7 +15,7 @@ forked_from:
 author: Elli Mylona
 folder: workshops
 category: 
-summary: "LHFV workshop wet lab protocol"
+summary: "LHF workshop wet lab protocol"
 ---
 
 *This protocol contains instructions on library preparation and sequencing using the ARTIC method and Oxford Nanopore sequencing chemistry V14 and R10.4.1 flow cells. The protocol is based on the ARTIC LoCost Amplicon Sequencing [protocol](https://www.protocols.io/view/artic-locost-amplicon-sequencing-protocol-sqk-nbd1-5jyl885p7l2w/v1?step=5). Any variations from this protocol will be noted in the text below.*
