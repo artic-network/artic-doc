@@ -13,8 +13,8 @@ creation_date: 2026-03-15
 last_updated: 2026-03-15
 author: Áine O'Toole, Kate Duggan & Daniel Maloney
 citation: https://github.com/artic-network/raccoon
-image: /images/software/raccoon_logo.svg
-icon: /images/software/raccoon_logo.svg
+image: /images/software/raccoon-logo.svg
+icon: /images/software/raccoon-logo.svg
 folder: training
 category: tutorial
 order: 2
