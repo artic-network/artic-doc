@@ -31,7 +31,7 @@ order: 2
 {% include callout.html
 type='default'
 content='
-**Overview:** A complete tutorial to combine newly generated consensus genome sequences with background and metadata, running sequence and metadata quality control, multiple sequence alignment, site masking or problematic sequence removal, maximum likelihood phylogenetic inference, and tree quality assessment. The software tools used today include the raccoon toolkit, MAFFT and IQTREE, run through a Nextflow pipeline within the EPI2ME interface.  Raccon, MAFFT and IQTREE can be used as command line tools, with full command-line documentation available for raccoon available at [github.com/artic-network/raccoon](https://github.com/artic-network/raccoon).
+**Overview:** A complete tutorial to combine newly generated consensus genome sequences with background and metadata, running sequence and metadata quality control, multiple sequence alignment, site masking or problematic sequence removal, maximum likelihood phylogenetic inference, and tree quality assessment. The software tools used today include the raccoon toolkit, MAFFT and IQTREE, run through a Nextflow pipeline within the EPI2ME interface.  Raccon, MAFFT and IQTREE can be used as command line tools, with full command-line documentation available for raccoon available at [artic-network.github.io/raccoon](https://artic-network.github.io/raccoon/).
 '
 %}
 
@@ -61,7 +61,7 @@ content='
 
 Working with multiple FASTA files and creating clear, informative headers for phylogenetic analysis can be much easier with the right tools and guidance. For those who may be less familiar with coding or the command line, tasks such as merging FASTA files or structuring metadata-rich headers can be time-consuming, especially when done manually. This tutorial introduces practical approaches that simplify these steps and help reduce the chance of errors in metadata or sequence entries.
 
-In addition, understanding and critical evaluation of the quality of results is an important part of viral phylogenetics. This tutorial will guide you through sequence quality-control steps, highlight potential issues that can arise during multiple sequence alignment, and help you confidently assess and interpret the resulting phylogenetic trees.
+In addition, understanding and critical evaluation of the quality of results is an important part of viral phylogenetics. This tutorial will guide you through sequence quality-control steps, highlight potential issues that can arise during multiple sequence alignment, and help you confidently assess and interpret the resulting phylogenetic trees. An interactive description of the pipeline can be found at [artic-network.github.io/raccoon/docs/interactive_pipeline](https://artic-network.github.io/raccoon/docs/interactive_pipeline.html)
 
 In this tutorial, the pipeline will be run using the EPI2ME user interface. Users do not need to run every command manually, and do not need knowledge of the command line to run raccoon, however they should understand each stage. Users that are familiar with the command line can run different modules independently in their own custom workflows to aid in post-consensus analysis QC.
 
