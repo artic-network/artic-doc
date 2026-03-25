@@ -19,24 +19,21 @@ summary: "LHF workshop participants pre and post Workshop tasks (evaluation and 
 ---
 
 ## Getting your laptop ready
-A quick guide to make sure your laptop is set up so you can follow along easily during the workshop.
+If you plan to bring a laptop to the workshop, please ensure that it has at least 4 CPU cores and 8GB of RAM. In our experience, laptops with less resources than this will be unable to effectively run the software required for this workshop. Please also follow the below instructions to prepare your laptop, this will save time during the workshop so we can focus on the important bits!
 
-## Pre-workshop check-in
-Please fill in the a short, anonymous check-in form to help you reflect on your starting point and help us gauge the level of understanding and tailor the sessions accordingly. This is a learning exercise, not an assessment!
+- Install EPI2ME, the EPI2ME team have a detailed installation guide you can follow here: <https://epi2me.nanoporetech.com/epi2me-docs/installation/>. Once you finish the installation process please move to the next step.
+- Please follow step 1 of this guide: <https://artic.network/amplicon-nf/amplicon-nf-epi2me-simple-sop.html#1-starting-epi2melabs-desktop-and-installing-amplicon-nf>. This will install the "amplicon-nf" pipeline locally to EPI2ME which you installed in the previous step.
 
-To access the form, please click on the link: [Pre-workshop-Qs]()
+## Pre- and post-workshop check-in - what stuck?
+Please fill in a short, anonymous check-in form that we are going to share prior to the workshop to help you reflect on your starting point and help us gauge the level of understanding and tailor the sessions accordingly. This is a learning exercise, not an assessment!
+
+A few quick questions will also be shared post-workshop to help reinforce what you’ve learned and see what stuck after the workshop.
 
 ## Suggested reading
 [Multiplex-PCR-method](https://www.nature.com/articles/nprot.2017.066) and [ARTIC-LoCost-protocol](https://www.protocols.io/view/artic-locost-amplicon-sequencing-protocol-sqk-nbd1-5jyl885p7l2w/v1?step=5)
 
 [PrimalScheme-paper](https://www.biorxiv.org/content/10.1101/2024.12.20.629611v1)
 
-## After the workshop - What stuck?
-A few quick questions to help reinforce what you’ve learned and see what stuck after the workshop.
-
-To access the form, please click on the link: [Post-workshop-Qs]()
 
 ## Share your feedback
-Thank you for attending the workshop! Tell us what worked well and what we could improve so we can make future workshops even better. The survey should take approximately 5 minutes to complete. 
-
-To access the survey, please clink on the link: [Feedback-survey]()
+Thank you for attending the workshop! Tell us what worked well and what we could improve so we can make future workshops even better. The survey should take approximately 5 minutes to complete and will be shared at the end of the workshop.
