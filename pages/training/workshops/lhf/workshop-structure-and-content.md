@@ -67,12 +67,10 @@ The following modules will be covered:
 ## Resources
 
 ### Scenario materials 
-Details of the scenario can be found in the [factsheet]() and [sitreps]().
-
-A map of the fictional country Articia is shown below.
+Details of the scenario can be found in the factsheet and sitreps, as well as the map of the fictional country Articia that will be provided during/before the workshop.
 
 ### Slide decks
-All slide decks will be made available after the workshop [here]().
+All slide decks will be made available after the workshop.
 
 ### Protocols and tutorials
 
@@ -84,6 +82,7 @@ The primer scheme used in this protocol can be found in [primalscheme labs](http
 #### ARTIC Amplicon-nf tutorial
 
 #### ARTIC Raccoon-nf tutorial
+You can access the phylogenetics tutorial that uses raccoon-nf [here](https://artic.network/tutorials/raccoon-nf.html).
 
 ### Example outputs
-
+Example output data will also become available after the workshop.
