@@ -21,7 +21,7 @@ summary: "overview of LHF workshop"
 ## Purpose and goals
 The ARTIC tiled amplicon-based sequencing approach has been instrumental in responding to outbreaks and epidemics like those of Ebola, Zika, and SARS-CoV-2. The technology is fast, portable, and robust, enabling real-time surveillance and epidemiological tracking of virus outbreaks. 
 
-We have built a training package to facilitate delivering hands-on experience spanning the full workflow, from sample preparation to data interpretation, simulating viral genome evolution using synthetic nucleic acid controls. The participants will work on a simulated outbreak scenario for data interpretation and identifying actionable insights. This training package aims to deliver realistic and applicable learning outcomes, addressing common challenges and confounding factors encountered when applying genomics during outbreaks. 
+We have built a training package to facilitate delivering hands-on experience spanning the full workflow, from sample preparation to data interpretation, simulating genomic epidemiology using synthetic nucleic acid controls. The participants will work on a simulated outbreak scenario for data interpretation and identifying actionable insights. This training package aims to deliver realistic and applicable learning outcomes, addressing common challenges and confounding factors encountered when applying genomics during outbreaks. 
 
 The broader aim is to strengthen local viral genome sequencing capacity and share knowledge through open-access, hands-on training in ARTIC methodologies. This distributable package will provide a comprehensive, end-to-end instruction based on best-practices, protocols, and approaches as recommended by the ARTIC network.
 
