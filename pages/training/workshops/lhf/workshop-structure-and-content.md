@@ -3,7 +3,7 @@ title: "LHF Workshop Structure and Content"
 layout: document
 keywords: 
 tags: 
-permalink: /workshops/lhf/workshop-structure-and-content.html
+permalink: /workshops/lhf/structure-and-content.html
 title_text: "ARTIC practical training: For real, real-time, real-safe, full-stack, genomics-enabled outbreak surveillance and response training."
 subtitle_text: "Workshop Structure and Content"
 icon: 

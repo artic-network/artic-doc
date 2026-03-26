@@ -172,7 +172,7 @@ This tutorial assumes the following software is installed:
 
 {% include enum.html number='3' content='Metadata files' %}
 
-In order to properly inform our analysis, we need to integrate our sequence data with sequence metadata. Metadata is data that provides additional information about our samples, such as collection date or location. This is ususally supplied as an additional file in CSV or TSV format.
+In order to properly inform our analysis, we need to integrate our sequence data with sequence metadata. Metadata is data that provides additional information about our samples, such as collection date or location. This is usually supplied as an additional file in CSV or TSV format.
 
 Depending on the data collection process, planning, and ethics approvals, metadata may be very detailed or more sparse. 
 

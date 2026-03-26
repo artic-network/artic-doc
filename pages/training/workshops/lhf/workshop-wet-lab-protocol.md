@@ -3,7 +3,7 @@ title: "LHF Workshop wet lab protocol"
 layout: document
 keywords: 
 tags: 
-permalink: /workshops/lhf/workshop-wet-lab-protocol.html
+permalink: /workshops/lhf/wet-lab-protocol.html
 title_text: "ARTIC practical training: For real, real-time, real-safe, full-stack, genomics-enabled outbreak surveillance and response training."
 subtitle_text: "Wet lab protocol"
 icon: 
