@@ -1,6 +1,6 @@
 ---
 title: "LHF Workshop Overview"
-layout: document
+layout: page
 keywords: 
 tags: 
 permalink: /workshops/lhf/overview.html
@@ -14,7 +14,7 @@ last_updated: 2026-03-04
 forked_from: 
 author: Elli Mylona
 folder: workshops
-category: 
+category: workshop
 summary: "overview of LHF workshop"
 ---
 

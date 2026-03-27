@@ -13,7 +13,7 @@ creation_date: 2026-03-26
 last_updated: 2026-03-26
 author: Áine O'Toole, Kate Duggan & Daniel Maloney
 folder: workshops
-category: workshop
+category: lhf
 order: 2
 ---
 

@@ -4,7 +4,7 @@ layout: document
 keywords: tutorial
 tags: [tutorial, protocol]
 summary:
-permalink: /tutorials/raccoon-nf.html
+permalink: /workshops/lhf/raccoon-nf.html
 title_text: "Multiple sequence alignment and phylogenetics pipeline using raccoon-nf"
 subtitle_text: "Raccoon | phylogenetics"
 document_name: "ARTIC-raccoon-nf-tutorial"
@@ -37,9 +37,9 @@ content='
 
 ## Table of Contents
 
+- [Prerequisites](#prerequisites)
 - [Background](#background)
 - [Learning outcomes](#learning-outcomes)
-- [Prerequisites](#prerequisites)
 - [Setup](#setup)
 - [1. Understanding and exploring the datafiles](#1-understanding-and-exploring-the-datafiles)
 - [2: Understanding raccoon-nf pipeline](#2-understanding-raccoon-nf-pipeline)
@@ -53,9 +53,16 @@ content='
 
 ---
 
-{% capture files_url %}{{ site.tutorials_root_url }}/workshop_raccoon-nf/files/{% endcapture %}
-{% capture root_url %}{{ site.tutorials_root_url }}/workshop_raccoon-nf/images/{% endcapture %}
+{% capture files_url %}/pages/training/workshops/lhf/raccoon-nf/files/{% endcapture %}
+{% capture root_url %}/pages/training/workshops/lhf/raccoon-nf/images/{% endcapture %}
 
+## Prerequisites
+
+This tutorial assumes the Epi2Me software is installed and running and the `raccoon-nf` workflow has been installed:
+
+- [See here for instructions for installing Epi2Me and the workflows](/workshops/lhf/installing_workflows.html)
+
+---
 
 ## Background
 
@@ -80,48 +87,6 @@ By the end of the session, participants should be able to:
 
 ---
 
-
-## Prerequisites
-
-This tutorial assumes the following software is installed:
-
-- Docker
-- EPI2ME
-
----
-
-## Setup
-
-{% include image.html file="epi2me_1.png" prefix=root_url %} <br />
-
-{% include enum.html number='1' content='Today we will run the raccoon-nf pipeline through the [EPI2ME](https://labs.epi2me.io/downloads/) user interface. Please first install the EPI2ME desktop application using the provided link. Follow the setup instructions in the package to install and run EPI2ME.' %}
-
-   {% include image.html file="epi2me_2.png" prefix=root_url %} <br />
-
-{% include enum.html number='2' content='Once you have successfully installed, launch EPI2ME.' %}
-
-   {% include image.html file="epi2me_3.png" prefix=root_url %} <br />
-
-{% include enum.html number='3' content='To access EPI2ME without creating an account, click on the three dots at the bottom of the window, and click "Continue as guest".' %} 
-
-   {% include image.html file="epi2me_4.png" prefix=root_url %} <br />
-
-{% include enum.html number='4' content='When you have successfully launched EPI2ME, you should see the above screen. To install the raccoon-nf pipeline, click to open the "Launch" window in the panel on the left hand side.' %}
-
-   {% include image.html file="epi2me_5.png" prefix=root_url %} <br />
-
-{% include enum.html number='5' content='Click on "Import workflow" in the top right of the window, and then "Import from GitHub".' %}
-
-   {% include image.html file="epi2me_6.png" prefix=root_url %} <br />
-
-{% include enum.html number='6' content='To import the raccoon-nf workflow, paste "https://github.com/Desperate-Dan/raccoon-nf" into the box and click "Download".' %}
-
-   {% include image.html file="epi2me_7.png" prefix=root_url %} <br />
-
-{% include enum.html number='7' content='You should see the above screen if the workflow installed correctly. Click "Open" to launch the workflow.' %}
-
-
----
 
 ## 1. Understanding and exploring the datafiles
 
