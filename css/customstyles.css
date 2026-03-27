@@ -689,6 +689,10 @@ hr {
     margin-right: auto;
 }
 
+.page-break {
+    page-break-before: always;
+}
+
 button.cursorNorm {
     cursor: pointer;
 }
