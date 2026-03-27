@@ -4,7 +4,7 @@ layout: document
 keywords: 
 tags: 
 permalink: /workshops/lhf/wet-lab-protocol.html
-title_text: "ARTIC practical training: For real, real-time, real-safe, full-stack, genomics-enabled outbreak surveillance and response training."
+title_text: "LHFV Workshop | Lab Protocol."
 subtitle_text: "Wet lab protocol"
 icon: 
 document_name: "LHF-workshop-wet-lab-protocol"
@@ -13,8 +13,9 @@ creation_date: 2026-03-05
 last_updated: 2026-03-05
 forked_from: 
 author: Elli Mylona
-folder: workshops
-category: 
+folder: lhf
+category: tutorial
+order: 1
 summary: "LHF workshop wet lab protocol"
 ---
 

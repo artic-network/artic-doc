@@ -18,11 +18,23 @@ category: workshop
 summary: "overview of LHF workshop"
 ---
 
-{% assign docs = site.html_pages | where_exp:"item", "item.category contains 'lhf'" | sort: 'title' %}
-<ul>
+## Background
+{% assign docs = site.html_pages | where_exp:"item", "item.folder contains 'lhf'" | where_exp:"item", "item.category contains 'background'" | sort: 'order' %}
+<dl>
     {% for doc in docs %}
-    <li><a href="{{ doc.permalink }}">{{ doc.title_text }}</a></li>
+    <dt><a href="{{ doc.permalink }}">{{ doc.title_text }}</a></dt>
+    <dd>{{ doc.summary }}</dd>
     {% endfor %}
-</ul>
+</dl>
+
+## Resources, Protocols and Tutorials
+{% assign docs = site.html_pages | where_exp:"item", "item.folder contains 'lhf'" | where_exp:"item", "item.category contains 'tutorial'" | sort: 'order' %}
+<dl>
+    {% for doc in docs %}
+    <dt><a href="{{ doc.permalink }}">{{ doc.title_text }}</a></dt>
+    <dd>{{ doc.summary }}</dd>
+    {% endfor %}
+</dl>
+
 
 

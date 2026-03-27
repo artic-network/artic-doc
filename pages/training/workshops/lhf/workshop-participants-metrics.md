@@ -4,7 +4,7 @@ layout: document
 keywords: 
 tags: 
 permalink: /workshops/lhf/metrics.html
-title_text: "ARTIC practical training: For real, real-time, real-safe, full-stack, genomics-enabled outbreak surveillance and response training."
+title_text: "ARTIC practical training: "
 subtitle_text: "Workshop preparation and feedback"
 icon: 
 document_name: "LHF-workshop-metrics"
@@ -13,8 +13,9 @@ creation_date: 2026-03-05
 last_updated: 2026-03-05
 forked_from: 
 author: Elli Mylona
-folder: workshops
-category: 
+folder: lhf
+category: background
+order: 4
 summary: "LHF workshop participants pre and post Workshop tasks (evaluation and feedback)"
 ---
 

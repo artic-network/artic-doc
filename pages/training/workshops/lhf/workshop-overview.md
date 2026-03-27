@@ -13,8 +13,9 @@ creation_date: 2026-03-04
 last_updated: 2026-03-04
 forked_from: 
 author: Elli Mylona
-folder: workshops
-category: workshop
+folder: lhf
+category: background
+order: 1
 summary: "overview of LHF workshop"
 ---
 

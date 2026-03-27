@@ -1,6 +1,6 @@
 ---
 title: "LHF Workshop Structure and Content"
-layout: document
+layout: page
 keywords: 
 tags: 
 permalink: /workshops/lhf/structure-and-content.html
@@ -13,8 +13,9 @@ creation_date: 2026-03-06
 last_updated: 2026-03-06
 forked_from: 
 author: Elli Mylona
-folder: workshops
-category: 
+folder: lhf
+category: background
+order: 2
 summary: "LHF workshop structure and content"
 ---
 

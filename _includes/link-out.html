@@ -1,0 +1,7 @@
+<div class="bs-callout bs-callout-primary link-out-callout">
+<a class="link-out" href="{{include.url}}" target="_blank" rel="noopener"><i class="fa fa-external-link" aria-hidden="true"></i>&nbsp;&nbsp;{{include.text}}</a>
+{% if include.image %}<figure class="link-out-preview">
+  <a href="{{include.url}}" target="_blank" rel="noopener"><img src="{{include.image}}" alt="{% if include.caption %}{{include.caption}}{% else %}Preview of {{include.text}}{% endif %}" {% if include.max-width %}style="max-width: {{include.max-width}}{% unless include.max-width contains '%' or include.max-width contains 'px' %}px{% endunless %}"{% endif %} /></a>
+  {% if include.caption %}<figcaption>{{include.caption}}</figcaption>{% endif %}
+</figure>{% endif %}
+</div>
