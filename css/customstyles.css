@@ -658,7 +658,7 @@ a.link-out .fa-external-link {
 
 figure.link-out-preview {
     margin: 10px 0 0 0;
-    display: inline-block;
+    display: block;
 }
 
 figure.link-out-preview img {
