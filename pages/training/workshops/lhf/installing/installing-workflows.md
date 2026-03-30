@@ -62,7 +62,7 @@ Click "Open" to open the workflow:
 
 {% include image.html file="epi2me_8.png" prefix=root_url max-width="66%" %}
 
-At this stage go back and repeat steps 3 - 6 to install another workflow, `raccoon-nf`. Use the following URL to install it: <br />`https://github.com/Desperate-Dan/raccoon-nf`
+At this stage go back and repeat steps 3 - 6 to install another workflow, `raccoon-nf`. Use the following URL to install it: <br />`https://github.com/artic-network/raccoon-nf`
 
 Your Workflows window should now look like this:
 
