@@ -160,4 +160,3 @@ The tree will now open in `PearTree` ready for investigation:
 {% include image.html file="peartree_2.png" prefix=root_url max-width="66%" %}
 
 {% include callout.html type="info" content="You can also use the \"Open...\" button to select the file directly" %}
-
