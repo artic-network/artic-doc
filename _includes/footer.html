@@ -1,9 +1,15 @@
 <footer>
             <div class="row">
                 <div class="col-lg-12 footer">
-               &copy;{{ site.time | date: "%Y"  }} {{site.company_name}}. All rights reserved. <br />
-{% if page.last_updated %}<span>Page last updated:</span> {{page.last_updated}}<br/>{% endif %} Site last generated: {{ site.time | date: "%b %-d, %Y"  }} <br />
-<p><img style="max-height:64px" src="{{ "/images/artic.png" }}" alt="ARTIC logo"/><img style="max-height:64px" src="{{ "/images/wellcome-logo.png" }}" alt="Wellcome logo"/></p>
+    <div style="display: inline-flex; align-items: center; gap: 24px; margin-top: 12px;">
+        <div style="font-size: 90%; text-align: left;">
+            &copy;{{ site.time | date: "%Y"  }} {{site.company_name}}. All rights reserved.<br />
+            {% if page.last_updated %}<span>Page last updated:</span> {{page.last_updated}}<br/>{% endif %}Site last generated: {{ site.time | date: "%b %-d, %Y"  }}
+        </div>
+        <img style="max-height:48px" src="{{ "/images/artic.png" }}" alt="ARTIC logo"/>
+        <img style="max-height:48px" src="{{ "/images/wellcome-logo.png" }}" alt="Wellcome logo"/>
+        <img style="max-height:48px" src="{{ "/images/gates-logo.svg" }}" alt="Gates Foundation logo"/>
+    </div>
                 </div>
             </div>
 </footer>

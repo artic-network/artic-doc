@@ -4,7 +4,7 @@ keywords: homepage artic
 tags: [about]
 sidebar: artic_sidebar
 permalink: index.html
-summary: ARTIC network is a project funded by the Wellcome Trust to develop systems, protocols and bioinformatics for end-to-end pathogen genomics.
+summary: ARTIC network is a project funded by the Wellcome Trust and the Gates Foundation to develop systems, protocols and bioinformatics for end-to-end pathogen genomics.
 toc: false
 ---
 
