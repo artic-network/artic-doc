@@ -38,7 +38,7 @@ Previously, much of the molecular surveillance for measles virus has focused on 
 The decline in measles cases over the last few decades has led to a bottleneck in the virus population, with a reduction in observed diversity. The recent upsurge in measles cases stem from two genotypes,  which do not readily resolve themselves into informative clusters based on the N450 region alone. Rough estimations based on the general observed rate of evolution for measles virus would anticipate 0.18 observed mutations per year for the N450 region alone versus 6.4 observed substitutions per year for the entire genome. 
 
 
-Sequencing the whole genome can provide better resolution between samples to inform outbreak investigations and identify imports. With the advent of the readily adopted tiled-amplicon schemes developed by the ARTIC Network, whole genome sequencing is as accessible as sub-genomic N450 sequencing. 
+Sequencing the whole genome can provide better resolution between samples to inform outbreak investigations and identify imports. With the advent of the readily adopted tiled-amplicon schemes developed by the ARTIC network, whole genome sequencing is as accessible as sub-genomic N450 sequencing. 
 
 
 As of 2025-07-23, NCBI-Virus contains 1,142 measles virus genomes that have not been marked as lab-passaged or vaccine strain, and 19,101 shared N450 nucleotide records.

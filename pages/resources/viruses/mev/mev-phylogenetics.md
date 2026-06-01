@@ -58,7 +58,7 @@ Several established tools are available for generating multiple sequence alignme
 
 <img width="500" alt="link" src="/images/mev/mafft.png">
 
-Following alignment, it is essential to manually inspect the output. For typical viral outbreak datasets, alignment visualisation is usually feasible and recommended. This can be done using commercial software like [Geneious](https://www.geneious.com/) or through open-source options like the ARTIC Network [Sealion](https://artic-network.github.io/sealion/) software or [Jalview](https://www.jalview.org/). 
+Following alignment, it is essential to manually inspect the output. For typical viral outbreak datasets, alignment visualisation is usually feasible and recommended. This can be done using commercial software like [Geneious](https://www.geneious.com/) or through open-source options like the ARTIC network [Sealion](https://artic-network.github.io/sealion/) software or [Jalview](https://www.jalview.org/). 
 
 Visual inspection can reveal problematic regions arising due to low complexity regions or low coverage genomes, which can lead to alignment artefacts that we don't want to take forward into the phylogenetic analysis. Particular attention should be paid to clusters or blocks of mutations that may indicate alignment or assembly arefacts rather than genuine biological variation. Identifying and addressing these issues prior to phylogenetic inference is critical to avoid misleading results.
 
