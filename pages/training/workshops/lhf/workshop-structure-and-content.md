@@ -76,7 +76,7 @@ All slide decks will be made available after the workshop.
 ### Protocols and tutorials
 
 #### Wet-lab protocol
-The wet-lab [protocol](/workshops/lhfv/workshop-wet-lab-protocol.html) is based on the [ARTIC LoCost protocol](https://www.protocols.io/view/artic-locost-amplicon-sequencing-protocol-sqk-nbd1-5jyl885p7l2w/v1). It describes the workflow starting with the multiplex PCR, end preparation and barcode ligation, adapter ligation, and preparing the library for loading on ONT flow cells. Samples processed from different groups are pooled together into a library to maximise efficiency and resources allocation.
+The wet-lab [protocol](/workshops/lhf/wet-lab-protocol.html) is based on the [ARTIC LoCost protocol](https://www.protocols.io/view/artic-locost-amplicon-sequencing-protocol-sqk-nbd1-5jyl885p7l2w/v1). It describes the workflow starting with the multiplex PCR, end preparation and barcode ligation, adapter ligation, and preparing the library for loading on ONT flow cells. Samples processed from different groups are pooled together into a library to maximise efficiency and resources allocation.
 
 The primer scheme used in this protocol can be found in [primalscheme labs](https://labs.primalscheme.com/detail/artic-training-lhf/600/v1.0.0/?q=lhf).
 
