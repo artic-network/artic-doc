@@ -22,8 +22,7 @@ The ARTIC network has developed an end-to-end training package built around scen
 
 The package includes foundational lectures, protocols, and tutorials for hands-on wet lab and bioinformatics work, alongside supporting documentation for planning and evaluation. Following a pilot run, the full set of materials, including the inert synthetic genomes used to simulate outbreaks, is now available for wider distribution, enabling local delivery of the training.
 
-<!-- TODO: replace remaining placeholder link (#) with the zip download URL -->
-To get started, any lab provider can [access the training materials](#) and [request the accompanying nucleic acid materials (primers, synthetic genomes)](mailto:h.j.willmott@bham.ac.uk) to set up their own local workshop. A detailed manual walks trainers through setting up, running, and evaluating the training. The ARTIC Network team is on hand to provide remote support throughout every phase of the workshop.
+To get started, [download the training materials](https://s3.climb.ac.uk/quick-research-artic-training/LHFV_training_package_v1.zip) (a 2&nbsp;GB zip file) and [request the accompanying nucleic acid materials (primers, synthetic genomes)](mailto:h.j.willmott@bham.ac.uk) to set up your own local workshop. A detailed manual walks trainers through setting up, running, and evaluating the training. The ARTIC Network team is on hand to provide remote support throughout every phase of the workshop.
 
 ## What's in the package
 
@@ -53,7 +52,7 @@ The following modules are covered:
 - Hands-on bioinformatics sessions running ARTIC amplicon-nf and raccoon-nf
 - Phylogenetic tree interpretation
 
-{% include file.html prefix="#" file="" text="Download the LHFV training package (zip)" %}
+{% include file.html prefix="https://s3.climb.ac.uk/quick-research-artic-training/LHFV_training_package_v1.zip" file="" text="Download the LHFV training package (zip, ~2&nbsp;GB)" %}
 
 {% include link-out.html url="mailto:h.j.willmott@bham.ac.uk" text="Request primers and synthetic genomes" %}
 
