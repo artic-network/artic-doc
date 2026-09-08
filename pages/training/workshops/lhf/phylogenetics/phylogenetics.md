@@ -3,7 +3,6 @@ title: "LHFV Workshop Tutorial | Phylogenetic Analysis using Raccoon-nf"
 layout: document
 keywords: workshops
 tags: [workshops, protocol]
-summary:
 permalink: /workshops/lhf/phylogenetic_analysis.html
 title_text: "Phylogenetic Analysis using Raccoon-nf"
 subtitle_text: 
@@ -14,7 +13,7 @@ last_updated: 2026-03-30
 author: Áine O'Toole, Kate Duggan & Daniel Maloney
 folder: lhf
 category: tutorial
-order: 2
+order: 4
 toc: true
 summary: Instructions for using EPI2ME to run Raccoon to align workshop data and construct phylogenetic trees.
 ---
@@ -24,7 +23,7 @@ summary: Instructions for using EPI2ME to run Raccoon to align workshop data and
 
 This tutorial is a walkthrough of running `raccoon-nf` on the data produced in the workshop. For a complete guide and tutorial see:
 
-{% include link-out.html url="https://artic.network//tutorials/raccoon-nf.html" text="Multiple sequence alignment and phylogenetics pipeline using raccoon-nf" %}
+{% include link-out.html url="https://artic.network/tutorials/raccoon-nf.html" text="Multiple sequence alignment and phylogenetics pipeline using raccoon-nf" %}
 
 ## Installing and Launching Epi2Me
 
@@ -141,7 +140,7 @@ Browse these file and look at the various sections.
 
 For more information about these reports see the full `raccoon-nf` tutorial:
 
-{% include link-out.html url="https://artic.network//tutorials/raccoon-nf.html" text="Multiple sequence alignment and phylogenetics pipeline using raccoon-nf" %}
+{% include link-out.html url="https://artic.network/tutorials/raccoon-nf.html" text="Multiple sequence alignment and phylogenetics pipeline using raccoon-nf" %}
 
 ### 6. Opening the phylogenetic tree in PearTree
 

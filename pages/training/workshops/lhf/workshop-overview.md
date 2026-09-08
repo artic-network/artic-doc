@@ -1,13 +1,16 @@
 ---
-title: "LHF Workshop Overview"
+title: "LHFV Workshop Overview"
 layout: page
 keywords: 
 tags: 
 permalink: /workshops/lhf/overview.html
+redirect_from:
+  - /workshops/lhf/structure-and-content.html
+  - /workshops/lhf/metrics.html
 title_text: "ARTIC practical training: For real, real-time, real-safe, full-stack, genomics-enabled outbreak surveillance and response training."
 subtitle_text: "Workshop Overview"
 icon: 
-document_name: "LHF-workshop-overview"
+document_name: "LHFV-workshop-overview"
 version: v1.0.0
 creation_date: 2026-03-04
 last_updated: 2026-03-04
@@ -16,7 +19,7 @@ author: Elli Mylona
 folder: lhf
 category: background
 order: 1
-summary: "overview of LHF workshop"
+summary: "overview of LHFV workshop"
 ---
 
 ## Purpose and goals

@@ -1225,3 +1225,13 @@ h4.panel-title {
         display:block !important;
     }
 }
+
+/* Collapsible sections (native <details>); Bootstrap's reset sets summary to display:block, which hides the marker */
+details > summary {
+    display: list-item;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+details {
+    margin: 20px 0;
+}

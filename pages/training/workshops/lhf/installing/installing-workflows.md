@@ -3,7 +3,6 @@ title: "LHFV Workshop Tutorial | Installing Workflows"
 layout: document
 keywords: workshops
 tags: [workshops, protocol]
-summary:
 permalink: /workshops/lhf/installing_workflows.html
 title_text: "Installing Workflows in Epi2me"
 subtitle_text: 

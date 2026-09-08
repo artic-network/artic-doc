@@ -3,7 +3,6 @@ title: "Alignment and Phylogenetics QC Tutorial | Raccoon-nf"
 layout: document
 keywords: tutorial
 tags: [tutorial, protocol]
-summary:
 permalink: /workshops/lhf/raccoon-nf.html
 title_text: "Multiple sequence alignment and phylogenetics pipeline using raccoon-nf"
 subtitle_text: "Raccoon | phylogenetics"
@@ -15,9 +14,9 @@ author: Áine O'Toole, Kate Duggan & Daniel Maloney
 citation: https://github.com/artic-network/raccoon
 image: /images/software/raccoon-logo.svg
 icon: /images/software/raccoon-logo.svg
-folder: training
+folder: lhf
 category: tutorial
-order: 2
+order: 3
 ---
 
 <style>

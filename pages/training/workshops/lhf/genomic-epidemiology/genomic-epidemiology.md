@@ -3,7 +3,6 @@ title: "LHFV Workshop Tutorial | Genomic Epidemiological Analysis of LHFV"
 layout: document
 keywords: workshops
 tags: [workshops, protocol]
-summary:
 permalink: /workshops/lhf/genomic_epidemiology.html
 title_text: "Genomic Epidemiological Analysis of LHFV"
 subtitle_text: 
@@ -14,7 +13,7 @@ last_updated: 2026-03-30
 author: 
 folder: lhf
 category: tutorial
-order: 2
+order: 5
 toc: true
 summary:
 ---

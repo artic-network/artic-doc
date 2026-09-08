@@ -124,3 +124,7 @@ tutorials_root_url: /pages/training/tutorials
 
 github: [metadata]
 
+
+# jekyll-redirect-from is bundled with github-pages; enables redirect_from frontmatter
+plugins:
+  - jekyll-redirect-from
