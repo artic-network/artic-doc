@@ -15,7 +15,7 @@ forked_from:
 author: Elli Mylona
 folder: workshops
 category: workshop
-summary: "overview of LHFV workshop"
+summary: "An ARTIC training package free to download and deliver locally"
 ---
 
 The ARTIC network has developed an end-to-end training package built around scenario-realistic materials, guiding participants through the full outbreak-response workflow: from sample collection, through ARTIC amplicon-based sequencing, to ARTIC-tool-led bioinformatics analysis, phylogenetics, and epidemiological inference. The training reflects the realities of using genomics as a component of outbreak response.
@@ -24,8 +24,6 @@ The package includes foundational lectures, protocols, and tutorials for hands-o
 
 <!-- TODO: replace remaining placeholder link (#) with the zip download URL -->
 To get started, any lab provider can [access the training materials](#) and [request the accompanying nucleic acid materials (primers, synthetic genomes)](mailto:h.j.willmott@bham.ac.uk) to set up their own local workshop. A detailed manual walks trainers through setting up, running, and evaluating the training. The ARTIC Network team is on hand to provide remote support throughout every phase of the workshop.
-
-{% include file.html prefix="#" file="" text="Download the LHFV training package (zip)" %}
 
 ## What's in the package
 
@@ -55,14 +53,13 @@ The following modules are covered:
 - Hands-on bioinformatics sessions running ARTIC amplicon-nf and raccoon-nf
 - Phylogenetic tree interpretation
 
+{% include file.html prefix="#" file="" text="Download the LHFV training package (zip)" %}
+
+{% include link-out.html url="mailto:h.j.willmott@bham.ac.uk" text="Request primers and synthetic genomes" %}
+
 ## Background
-{% assign docs = site.html_pages | where_exp:"item", "item.folder contains 'lhf'" | where_exp:"item", "item.category contains 'background'" | sort: 'order' %}
-<dl>
-    {% for doc in docs %}
-    <dt><a href="{{ doc.permalink }}">{{ doc.title_text }}</a></dt>
-    <dd>{{ doc.summary }}</dd>
-    {% endfor %}
-</dl>
+
+[LHFV workshop overview](/workshops/lhf/overview.html): purpose, target audience, learning objectives, and planned future development.
 
 <details>
 <summary>Resources, Protocols and Tutorials</summary>
