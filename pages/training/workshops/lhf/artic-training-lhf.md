@@ -23,7 +23,7 @@ The ARTIC network has developed an end-to-end training package built around scen
 The package includes foundational lectures, protocols, and tutorials for hands-on wet lab and bioinformatics work, alongside supporting documentation for planning and evaluation. Following a pilot run, the full set of materials, including the inert synthetic genomes used to simulate outbreaks, is now available for wider distribution, enabling local delivery of the training.
 
 <!-- TODO: replace remaining placeholder link (#) with the zip download URL -->
-To get started, any lab provider can [access the training materials](#) and [request the accompanying nucleic acid materials (primers, synthetic genomes)](https://primalscheme.com/foundry/) to set up their own local workshop. A detailed manual walks trainers through setting up, running, and evaluating the training. The ARTIC Network team is on hand to provide remote support throughout every phase of the workshop.
+To get started, any lab provider can [access the training materials](#) and [request the accompanying nucleic acid materials (primers, synthetic genomes)](mailto:h.j.willmott@bham.ac.uk) to set up their own local workshop. A detailed manual walks trainers through setting up, running, and evaluating the training. The ARTIC Network team is on hand to provide remote support throughout every phase of the workshop.
 
 {% include file.html prefix="#" file="" text="Download the LHFV training package (zip)" %}
 
