@@ -3,7 +3,7 @@ title: Placide Mbala-Kingebeni
 surname: Mbala-Kingebeni
 institution: INRB
 institution_id: inrb
-biography: Placide Mbala Kingebeni is an Associate Professor at the University of Kinshasa, School of Medicine and is the Head of the Epidemiology and Global Health Division and Director of the Clinical Research Center at the INRB in the DRC. Dr. Mbala has extensive experience in medical biology, with specific training and expertise in microbiology, virology, and outbreak investigations.
+biography: Placide Mbala Kingebeni is an Associate Professor at the University of Kinshasa, School of Medicine and is the Head of the Epidemiology and Global Health Division and Director of the Clinical Research Center at the Institut National de Recherche Biomédicale (INRB) in the Democratic Republic of the Congo (DRC). Dr. Mbala has extensive experience in medical biology, with specific training and expertise in microbiology, virology, and outbreak investigations.
 project: artic2
 role: investigator
 column: 1
